@@ -1,239 +1,274 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Edocsmart</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="assets/style.css">
-        <!-- Google Fonts Poppins -->
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edocsmart</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <!-- Google Fonts Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
 
-    <body>
-        <!-- Background Image Wrapper -->
-        <header>
-            <div class="container-fluid position-relative bg-image d-flex align-items-center">
-                <nav class="navbar navbar-expand-md navbar-dark w-100 position-absolute top-0">
-                    <div class="container">
-                        <!-- Brand Logo -->
-                        <a class="navbar-brand logo" href="#">
-                            <img src="assets/images/logo.png" alt="EDOCSMART Logo">
-                        </a>
-                        <!-- Hamburger Button (Small Screens) -->
-                        <button class="navbar-toggler custom-toggler toggler-color" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon "></span>
-                        </button>
-                        <!-- Navbar Links & Contact Button -->
-                        <div class="collapse navbar-collapse" id="navbarNav">
-                            <ul class="navbar-nav mx-auto text-center">
-                                <li class="nav-item"><a class="nav-link mx-2" href="#">ABOUT</a></li>
-                                <li class="nav-item"><a class="nav-link mx-2" href="#">HOW IT WORKS</a></li>
-                                <li class="nav-item"><a class="nav-link mx-2" href="#">DOMAINS</a></li>
-                                <li class="nav-item"><a class="nav-link mx-2" href="#">FAQs</a></li>
-                            </ul>
-                            <!-- Contact Button -->
-                            <div class="text-center mt-2 mt-md-0">
-                                <a href="#" class="btn contact-btn">
-                                    <span>Contact Sales </span>
-                                    <svg class="arrow-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M7 17L17 7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                        <path d="M7 7H17V17" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </nav>
-            </div>
-        </header>
-        <!-- Hero Section----------------------------- -->
-        <section class="hero-section d-flex align-items-center">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6 text-center text-lg-start">
-                        <h1 class="hero-text">
-                            Automate your <span class="hero-span-desc">Invoicing</span> in minutes with <span class="hero-span-desc">AI</span>
-                        </h1>
-                        <p class="hero-description mt-3">
-                            Get clean data tables from unstructured details or even from photographs to structured sheets in
-                            seconds.
-                        </p>
-
-                        <div class="container mt-4">
-                            <div class="d-flex flex-wrap justify-content-between align-items-center gap-3 d-lg-flex button-row">
-                                <!-- Watch Demo Button -->
-                                <button class="btn btn-watch-demo">
-                                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <g clip-path="url(#clip0_253_2394)">
-                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M12 23.75C17.9647 23.75 22.8 18.7133 22.8 12.5C22.8 6.2868 17.9648 1.24997 12 1.24997C6.03533 1.24997 1.19997 6.2868 1.19997 12.5C1.19997 18.7132 6.03533 23.75 12 23.75ZM12 25C18.6273 25 24 19.4035 24 12.5C24 5.59639 18.6273 0 12 0C5.37253 0 0 5.59639 0 12.5C0 19.4035 5.37253 25 12 25Z" fill="black" />
-                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M15.1182 12.5L9.59988 8.66785V16.3322L15.1182 12.5ZM16.233 11.7719C16.7319 12.1183 16.7319 12.8817 16.233 13.2281L9.70575 17.761C9.14755 18.1487 8.39978 17.7317 8.39978 17.0329V7.96715C8.39978 7.26829 9.14755 6.85146 9.70575 7.23914L16.233 11.7719Z" fill="black" />
-                                        </g>
-                                        <defs>
-                                            <clipPath id="clip0_253_2394">
-                                                <rect width="24" height="25" fill="white" />
-                                            </clipPath>
-                                        </defs>
-                                    </svg>
-                                    Watch Demo
-                                </button>
-
-                                <!-- VR Column (Hides on small screens) -->
-                                <div class="vr d-none d-lg-block"></div>
-
-                                <!-- Find Us On -->
-                                <div class="find-us-text">FIND US ON</div>
-
-                                <!-- Google Play & App Store -->
-                                <div class="app-buttons">
-                                    <img src="assets/images/googleplay.png" alt="Google Play" class="store-icon">
-                                    <img src="assets/images/appstore.png" alt="App Store" class="store-icon">
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="mt-3 flex-column flex-lg-row align-items-center gap-3">
-                            <span>
-                                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path opacity="0.2" d="M4.68023 17.3198C3.88926 16.5288 4.41388 14.8682 4.01128 13.8952C3.59394 12.8865 2.0625 12.0746 2.0625 11C2.0625 9.92531 3.59395 9.1135 4.01129 8.10483C4.41389 7.1318 3.88926 5.4712 4.68023 4.68023C5.4712 3.88926 7.13181 4.41388 8.10484 4.01128C9.11353 3.59394 9.92536 2.0625 11 2.0625C12.0747 2.0625 12.8865 3.59395 13.8952 4.01129C14.8682 4.41389 16.5288 3.88926 17.3198 4.68023C18.1107 5.4712 17.5861 7.13181 17.9887 8.10484C18.4061 9.11353 19.9375 9.92536 19.9375 11C19.9375 12.0747 18.4061 12.8865 17.9887 13.8952C17.5861 14.8682 18.1107 16.5288 17.3198 17.3198C16.5288 18.1107 14.8682 17.5861 13.8952 17.9887C12.8865 18.4061 12.0746 19.9375 11 19.9375C9.92531 19.9375 9.1135 18.4061 8.10483 17.9887C7.1318 17.5861 5.4712 18.1107 4.68023 17.3198Z" fill="#0F9918" />
-                                    <path d="M4.68023 17.3198C3.88926 16.5288 4.41388 14.8682 4.01128 13.8952C3.59394 12.8865 2.0625 12.0746 2.0625 11C2.0625 9.92531 3.59395 9.1135 4.01129 8.10483C4.41389 7.1318 3.88926 5.4712 4.68023 4.68023C5.4712 3.88926 7.13181 4.41388 8.10484 4.01128C9.11353 3.59394 9.92536 2.0625 11 2.0625C12.0747 2.0625 12.8865 3.59395 13.8952 4.01129C14.8682 4.41389 16.5288 3.88926 17.3198 4.68023C18.1107 5.4712 17.5861 7.13181 17.9887 8.10484C18.4061 9.11353 19.9375 9.92536 19.9375 11C19.9375 12.0747 18.4061 12.8865 17.9887 13.8952C17.5861 14.8682 18.1107 16.5288 17.3198 17.3198C16.5288 18.1107 14.8682 17.5861 13.8952 17.9887C12.8865 18.4061 12.0746 19.9375 11 19.9375C9.92531 19.9375 9.1135 18.4061 8.10483 17.9887C7.1318 17.5861 5.4712 18.1107 4.68023 17.3198Z" stroke="#0F9918" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                    <path d="M14.7812 8.9375L9.73955 13.75L7.21875 11.3438" stroke="#0F9918" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
-                                7 Day Free Trial
-                            </span>
-                            <span class="trail">
-                                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path opacity="0.2" d="M4.68023 17.3198C3.88926 16.5288 4.41388 14.8682 4.01128 13.8952C3.59394 12.8865 2.0625 12.0746 2.0625 11C2.0625 9.92531 3.59395 9.1135 4.01129 8.10483C4.41389 7.1318 3.88926 5.4712 4.68023 4.68023C5.4712 3.88926 7.13181 4.41388 8.10484 4.01128C9.11353 3.59394 9.92536 2.0625 11 2.0625C12.0747 2.0625 12.8865 3.59395 13.8952 4.01129C14.8682 4.41389 16.5288 3.88926 17.3198 4.68023C18.1107 5.4712 17.5861 7.13181 17.9887 8.10484C18.4061 9.11353 19.9375 9.92536 19.9375 11C19.9375 12.0747 18.4061 12.8865 17.9887 13.8952C17.5861 14.8682 18.1107 16.5288 17.3198 17.3198C16.5288 18.1107 14.8682 17.5861 13.8952 17.9887C12.8865 18.4061 12.0746 19.9375 11 19.9375C9.92531 19.9375 9.1135 18.4061 8.10483 17.9887C7.1318 17.5861 5.4712 18.1107 4.68023 17.3198Z" fill="#0F9918" />
-                                    <path d="M4.68023 17.3198C3.88926 16.5288 4.41388 14.8682 4.01128 13.8952C3.59394 12.8865 2.0625 12.0746 2.0625 11C2.0625 9.92531 3.59395 9.1135 4.01129 8.10483C4.41389 7.1318 3.88926 5.4712 4.68023 4.68023C5.4712 3.88926 7.13181 4.41388 8.10484 4.01128C9.11353 3.59394 9.92536 2.0625 11 2.0625C12.0747 2.0625 12.8865 3.59395 13.8952 4.01129C14.8682 4.41389 16.5288 3.88926 17.3198 4.68023C18.1107 5.4712 17.5861 7.13181 17.9887 8.10484C18.4061 9.11353 19.9375 9.92536 19.9375 11C19.9375 12.0747 18.4061 12.8865 17.9887 13.8952C17.5861 14.8682 18.1107 16.5288 17.3198 17.3198C16.5288 18.1107 14.8682 17.5861 13.8952 17.9887C12.8865 18.4061 12.0746 19.9375 11 19.9375C9.92531 19.9375 9.1135 18.4061 8.10483 17.9887C7.1318 17.5861 5.4712 18.1107 4.68023 17.3198Z" stroke="#0F9918" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                    <path d="M14.7812 8.9375L9.73955 13.75L7.21875 11.3438" stroke="#0F9918" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
-                                Cancel Any Time
-                            </span>
-                        </div>
-                    </div>
-                    <!-- <div class="col-lg-6 d-flex justify-content-center mt-4 mt-lg-0">
-                    <img src="assets/images/home image.png" alt="Mobile App Mockup" class="img-fluid"
-                        class="animated-img">
-                </div> -->
-                    <div class="col-lg-6 d-flex justify-content-center mt-4 mt-lg-0">
-                        <video src="assets/video/home.mp4" alt="Mobile App Video" class="img-fluid video-style" autoplay loop muted playsinline>
-                            Your browser does not support the video tag.
-                        </video>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- <section class="client-section text-center py-4"> -->
-        <div class="container">
-            <div class="row client-section text-center py-4 ">
-                <h2 class="mb-4 client-txt">
-                    Trusted by <span class="text-primary fw-bold">225,000+</span> customers, from startups to enterprises
-                </h2>
-                <!-- Responsive Scrolling Logo Slider -->
-                <div class="slider-wrapper overflow-hidden">
-                    <div class="slider d-flex">
-                        <div class="my-specific-img">
-                            <img src="assets/images/lenovo.png" alt="Lenovo" class="img-fluid1 mx-3">
-                            <img src="assets/images/slack.png" alt="Slack" class="img-fluid1 mx-3">
-                            <img src="assets/images/google logo.png" alt="Google" class="img-fluid1 mx-3">
-                            <img src="assets/images/amazon.png" alt="Amazon" class="img-fluid1 mx-3">
-                            <img src="assets/images/microsoft.png" alt="Microsoft" class="img-fluid1 mx-3">
-                            <!-- Duplicates for smooth infinite scrolling -->
-                            <img src="assets/images/lenovo.png" alt="Lenovo" class="img-fluid1 mx-3">
-                            <img src="assets/images/slack.png" alt="Slack" class="img-fluid1 mx-3">
-                            <img src="assets/images/google logo.png" alt="Google" class="img-fluid1 mx-3">
-                            <img src="assets/images/amazon.png" alt="Amazon" class="img-fluid1 mx-3">
-                            <img src="assets/images/microsoft.png" alt="Microsoft" class="img-fluid1 mx-3">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- </section> -->
-        <br>
-        <br>
-
-        <!-- HOW IT WORKS -->
-        <div class="container">
-            <div class="row bg-image-main">
-                <div class="section-title1-cont">
-                    <div class="section-title1">HOW IT WORKS</div>
-                </div>
-                <div class="description">
-                    <h2 class="section-title-text pt-4">Snap to Digitize Invoices</h2>
-                    <p class="section-text pt-4">
-                        Eliminate tedious manual processes, errors, and late payments. Take control of your accounts payable
-                        with full visibility and automated processes.
-                    </p>
-                </div>
-                <div class="steps-container text-center py-5 mt-5 rounded-3">
-                    <div class="row justify-content-center margintp">
-                        <div class="col-md-4 d-flex flex-column align-items-center">
-                            <div class="step-number text-white rounded-circle d-flex justify-content-center align-items-center">
-                                1
-                            </div>
-                            <h3 class="step-title">Snap or Upload <br>Invoices to the app</h3>
-                            <img src="assets/images/step-1.png" alt="Step 1" class="img-fluid">
-                            <p class="mt-auto">You can quickly take a snap of the invoice <br>or upload a document to begin
-                                with.
-                            </p>
-                        </div>
-                        <div class="col-md-4 d-flex flex-column align-items-center">
-                            <div class="step-number text-white rounded-circle d-flex justify-content-center align-items-center">
-                                2
-                            </div>
-                            <h3 class="step-title">Single Invoice<br> Processing</h3>
-                            <img src="assets/images/step-2.png" alt="Step 2" class="img-fluid">
-                            <p class="mt-auto">Our AI engine will process the upload within a few seconds and will start
-                                data extraction.
-                            </p>
-                        </div>
-                        <div class="col-md-4 d-flex flex-column align-items-center">
-                            <div class="step-number text-white rounded-circle d-flex justify-content-center align-items-center">
-                                3
-                            </div>
-                            <h3 class="step-title">Extract Structured<br> Data in seconds</h3>
-                            <img src="assets/images/step-3.png" alt="Step 3" class="img-fluid">
-                            <p class="mt-auto">Bingo! Now you can export the extracted<br> data in multiple formats as
-                                required.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class=" d-flex flex-column flex-md-row align-items-center justify-content-center mt-4 px-3">
-                    <p class="mb-2 mb-md-0 text-center text-md-start desctxt">
-                        Interested in knowing more about automating for your industry?
-                    </p>
-                    <div class="text-center mt-2 mt-md-0 ms-2">
+<body>
+    <!-- Background Image Wrapper -->
+     <header>
+    <div class="container-fluid position-relative bg-image d-flex align-items-center">
+        <nav class="navbar navbar-expand-md navbar-dark w-100 position-absolute top-0 ">
+            <div class="container margintop20">
+                <!-- Brand Logo -->
+                <a class="navbar-brand logo" href="#">
+                    <img src="assets/images/logo.png" alt="EDOCSMART Logo">
+                </a>
+                <!-- Hamburger Button (Small Screens) -->
+                <button class="navbar-toggler custom-toggler toggler-color" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon "></span>
+                </button>
+                <!-- Navbar Links & Contact Button -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto text-center">
+                        <li class="nav-item"><a class="nav-link mx-2" href="#">ABOUT</a></li>
+                        <li class="nav-item"><a class="nav-link mx-2" href="#">HOW IT WORKS</a></li>
+                        <li class="nav-item"><a class="nav-link mx-2" href="#">DOMAINS</a></li>
+                        <li class="nav-item"><a class="nav-link mx-2" href="#">FAQs</a></li>
+                    </ul>
+                    <!-- Contact Button -->
+                    <div class="text-center mt-2 mt-md-0">
                         <a href="#" class="btn contact-btn">
                             <span>Contact Sales </span>
-                            <svg class="arrow-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M7 17L17 7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                <path d="M7 7H17V17" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <svg class="arrow-icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7 17L17 7" stroke="white" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M7 7H17V17" stroke="white" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
                             </svg>
                         </a>
                     </div>
                 </div>
             </div>
-            <!-- About============================== -->
-            <div class="row pt-5 mt-4 marginleftright">
-                <div class="section-title1-cont bg-image-main">
-                    <div class="section-title1">ABOUT</div>
-                </div>
-                <div class="description bg-image-main">
-                    <h2 class="section-title-text pt-4">Precision Data Conversion for Seamless
-                        Invoicing
-                    </h2>
-                    <p class="section-txt pt-4 bg-image-main">
-                        Eliminate tedious manual processes, errors, and late payments. Take control of your accounts payable
-                        with full visibility and automated processes.
+        </nav>
+    </div>
+    </header>
+    <!-- Hero Section----------------------------- -->
+    <section class="hero-section d-flex align-items-center">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 text-center text-lg-start">
+                    <h1 class="hero-text">
+                        Automate your <span class="hero-span-desc">Invoicing</span> in minutes with <span
+                            class="hero-span-desc">AI</span>
+                    </h1>
+                    <p class="hero-description mt-3">
+                        Get clean data tables from unstructured details or even from photographs to structured sheets in
+                        seconds.
                     </p>
+
+                    <div class="container mt-4">
+                        <div class="d-flex flex-wrap justify-content-between align-items-center gap-3 d-lg-flex button-row">
+                            <!-- Watch Demo Button -->
+                            <button class="btn btn-watch-demo rounded-5 marginleft18">
+                                <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_253_2394)">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M12 23.75C17.9647 23.75 22.8 18.7133 22.8 12.5C22.8 6.2868 17.9648 1.24997 12 1.24997C6.03533 1.24997 1.19997 6.2868 1.19997 12.5C1.19997 18.7132 6.03533 23.75 12 23.75ZM12 25C18.6273 25 24 19.4035 24 12.5C24 5.59639 18.6273 0 12 0C5.37253 0 0 5.59639 0 12.5C0 19.4035 5.37253 25 12 25Z"
+                                            fill="black" />
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M15.1182 12.5L9.59988 8.66785V16.3322L15.1182 12.5ZM16.233 11.7719C16.7319 12.1183 16.7319 12.8817 16.233 13.2281L9.70575 17.761C9.14755 18.1487 8.39978 17.7317 8.39978 17.0329V7.96715C8.39978 7.26829 9.14755 6.85146 9.70575 7.23914L16.233 11.7719Z"
+                                            fill="black" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_253_2394">
+                                            <rect width="24" height="25" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                                Watch Demo
+                            </button>
+                    
+                            <!-- VR Column (Hides on small screens) -->
+                            <div class="vr d-none d-lg-block"></div>
+                    
+                            <!-- Find Us On -->
+                            <div class="find-us-text">FIND US ON</div>
+                    
+                            <!-- Google Play & App Store -->
+                            <div class="app-buttons">
+                                <img src="assets/images/googleplay.png" alt="Google Play" class="store-icon">
+                                <img src="assets/images/appstore.png" alt="App Store" class="store-icon">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-3 flex-column flex-lg-row align-items-center gap-3">
+                        <span>
+                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path opacity="0.2"
+                                    d="M4.68023 17.3198C3.88926 16.5288 4.41388 14.8682 4.01128 13.8952C3.59394 12.8865 2.0625 12.0746 2.0625 11C2.0625 9.92531 3.59395 9.1135 4.01129 8.10483C4.41389 7.1318 3.88926 5.4712 4.68023 4.68023C5.4712 3.88926 7.13181 4.41388 8.10484 4.01128C9.11353 3.59394 9.92536 2.0625 11 2.0625C12.0747 2.0625 12.8865 3.59395 13.8952 4.01129C14.8682 4.41389 16.5288 3.88926 17.3198 4.68023C18.1107 5.4712 17.5861 7.13181 17.9887 8.10484C18.4061 9.11353 19.9375 9.92536 19.9375 11C19.9375 12.0747 18.4061 12.8865 17.9887 13.8952C17.5861 14.8682 18.1107 16.5288 17.3198 17.3198C16.5288 18.1107 14.8682 17.5861 13.8952 17.9887C12.8865 18.4061 12.0746 19.9375 11 19.9375C9.92531 19.9375 9.1135 18.4061 8.10483 17.9887C7.1318 17.5861 5.4712 18.1107 4.68023 17.3198Z"
+                                    fill="#0F9918" />
+                                <path
+                                    d="M4.68023 17.3198C3.88926 16.5288 4.41388 14.8682 4.01128 13.8952C3.59394 12.8865 2.0625 12.0746 2.0625 11C2.0625 9.92531 3.59395 9.1135 4.01129 8.10483C4.41389 7.1318 3.88926 5.4712 4.68023 4.68023C5.4712 3.88926 7.13181 4.41388 8.10484 4.01128C9.11353 3.59394 9.92536 2.0625 11 2.0625C12.0747 2.0625 12.8865 3.59395 13.8952 4.01129C14.8682 4.41389 16.5288 3.88926 17.3198 4.68023C18.1107 5.4712 17.5861 7.13181 17.9887 8.10484C18.4061 9.11353 19.9375 9.92536 19.9375 11C19.9375 12.0747 18.4061 12.8865 17.9887 13.8952C17.5861 14.8682 18.1107 16.5288 17.3198 17.3198C16.5288 18.1107 14.8682 17.5861 13.8952 17.9887C12.8865 18.4061 12.0746 19.9375 11 19.9375C9.92531 19.9375 9.1135 18.4061 8.10483 17.9887C7.1318 17.5861 5.4712 18.1107 4.68023 17.3198Z"
+                                    stroke="#0F9918" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M14.7812 8.9375L9.73955 13.75L7.21875 11.3438" stroke="#0F9918"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                            7 Day Free Trial
+                        </span>
+                        <span class="trail">
+                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path opacity="0.2"
+                                    d="M4.68023 17.3198C3.88926 16.5288 4.41388 14.8682 4.01128 13.8952C3.59394 12.8865 2.0625 12.0746 2.0625 11C2.0625 9.92531 3.59395 9.1135 4.01129 8.10483C4.41389 7.1318 3.88926 5.4712 4.68023 4.68023C5.4712 3.88926 7.13181 4.41388 8.10484 4.01128C9.11353 3.59394 9.92536 2.0625 11 2.0625C12.0747 2.0625 12.8865 3.59395 13.8952 4.01129C14.8682 4.41389 16.5288 3.88926 17.3198 4.68023C18.1107 5.4712 17.5861 7.13181 17.9887 8.10484C18.4061 9.11353 19.9375 9.92536 19.9375 11C19.9375 12.0747 18.4061 12.8865 17.9887 13.8952C17.5861 14.8682 18.1107 16.5288 17.3198 17.3198C16.5288 18.1107 14.8682 17.5861 13.8952 17.9887C12.8865 18.4061 12.0746 19.9375 11 19.9375C9.92531 19.9375 9.1135 18.4061 8.10483 17.9887C7.1318 17.5861 5.4712 18.1107 4.68023 17.3198Z"
+                                    fill="#0F9918" />
+                                <path
+                                    d="M4.68023 17.3198C3.88926 16.5288 4.41388 14.8682 4.01128 13.8952C3.59394 12.8865 2.0625 12.0746 2.0625 11C2.0625 9.92531 3.59395 9.1135 4.01129 8.10483C4.41389 7.1318 3.88926 5.4712 4.68023 4.68023C5.4712 3.88926 7.13181 4.41388 8.10484 4.01128C9.11353 3.59394 9.92536 2.0625 11 2.0625C12.0747 2.0625 12.8865 3.59395 13.8952 4.01129C14.8682 4.41389 16.5288 3.88926 17.3198 4.68023C18.1107 5.4712 17.5861 7.13181 17.9887 8.10484C18.4061 9.11353 19.9375 9.92536 19.9375 11C19.9375 12.0747 18.4061 12.8865 17.9887 13.8952C17.5861 14.8682 18.1107 16.5288 17.3198 17.3198C16.5288 18.1107 14.8682 17.5861 13.8952 17.9887C12.8865 18.4061 12.0746 19.9375 11 19.9375C9.92531 19.9375 9.1135 18.4061 8.10483 17.9887C7.1318 17.5861 5.4712 18.1107 4.68023 17.3198Z"
+                                    stroke="#0F9918" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M14.7812 8.9375L9.73955 13.75L7.21875 11.3438" stroke="#0F9918"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                            Cancel Any Time
+                        </span>
+                    </div>
                 </div>
-                <div class=" text-center py-3 my-specific-container1 margintop">
-                    <div class="row justify-content-between">
-                        <div class="col-md-6 col-sm-12 align-items-center margintop50">
-                            <!-- <div class="all-card-cointainer-row1 cont-margin"> -->
+                <!-- <div class="col-lg-6 d-flex justify-content-center mt-4 mt-lg-0">
+                    <img src="assets/images/home image.png" alt="Mobile App Mockup" class="img-fluid"
+                        class="animated-img">
+                </div> -->
+                <div class="col-lg-6 d-flex justify-content-center mt-4 mt-lg-0">
+                    <video src="assets/video/home.mp4"
+                           alt="Mobile App Video"
+                           class="img-fluid video-style"
+                           autoplay
+                           loop
+                           muted
+                           playsinline>
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <section class="client-section text-center py-4"> -->
+    <div class="container">
+        <div class="row client-section text-center py-4 ">
+            <h2 class="mb-4 client-txt">
+                Trusted by <span class="text-primary fw-bold">225,000+</span> customers, from startups to enterprises
+            </h2>
+            <!-- Responsive Scrolling Logo Slider -->
+            <div class="slider-wrapper overflow-hidden">
+                <div class="slider d-flex">
+                    <div class="my-specific-img">
+                        <img src="assets/images/lenovo.png" alt="Lenovo" class="img-fluid1 mx-3">
+                        <img src="assets/images/slack.png" alt="Slack" class="img-fluid1 mx-3">
+                        <img src="assets/images/google logo.png" alt="Google" class="img-fluid1 mx-3">
+                        <img src="assets/images/amazon.png" alt="Amazon" class="img-fluid1 mx-3">
+                        <img src="assets/images/microsoft.png" alt="Microsoft" class="img-fluid1 mx-3">
+                        <!-- Duplicates for smooth infinite scrolling -->
+                        <img src="assets/images/lenovo.png" alt="Lenovo" class="img-fluid1 mx-3">
+                        <img src="assets/images/slack.png" alt="Slack" class="img-fluid1 mx-3">
+                        <img src="assets/images/google logo.png" alt="Google" class="img-fluid1 mx-3">
+                        <img src="assets/images/amazon.png" alt="Amazon" class="img-fluid1 mx-3">
+                        <img src="assets/images/microsoft.png" alt="Microsoft" class="img-fluid1 mx-3">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- </section> -->
+    <br>
+    <br>
+
+    <!-- HOW IT WORKS -->
+    <div class="container">
+        <div class="row bg-image-main">
+            <div class="section-title1-cont">
+                <div class="section-title1">HOW IT WORKS</div>
+            </div>
+            <div class="description">
+                <h2 class="section-title-text pt-4">Snap to Digitize Invoices</h2>
+                <p class="section-text pt-4">
+                    Eliminate tedious manual processes, errors, and late payments. Take control of your accounts payable
+                    with full visibility and automated processes.
+                </p>
+            </div>
+            <div class="steps-container text-center py-5 mt-5 rounded-3">
+                <div class="row justify-content-center margintp">
+                    <div class="col-md-4 d-flex flex-column align-items-center">
+                        <div
+                            class="step-number text-white rounded-circle d-flex justify-content-center align-items-center">
+                            1
+                        </div>
+                        <h3 class="step-title">Snap or Upload <br>Invoices to the app</h3>
+                        <img src="assets/images/step-1.png" alt="Step 1" class="img-fluid">
+                        <p class="mt-auto">You can quickly take a snap of the invoice <br>or upload a document to begin
+                            with.
+                        </p>
+                    </div>
+                    <div class="col-md-4 d-flex flex-column align-items-center">
+                        <div
+                            class="step-number text-white rounded-circle d-flex justify-content-center align-items-center">
+                            2
+                        </div>
+                        <h3 class="step-title">Single Invoice<br> Processing</h3>
+                        <img src="assets/images/step-2.png" alt="Step 2" class="img-fluid">
+                        <p class="mt-auto">Our AI engine will process the upload within a few seconds and will start
+                            data extraction.
+                        </p>
+                    </div>
+                    <div class="col-md-4 d-flex flex-column align-items-center">
+                        <div
+                            class="step-number text-white rounded-circle d-flex justify-content-center align-items-center">
+                            3
+                        </div>
+                        <h3 class="step-title">Extract Structured<br> Data in seconds</h3>
+                        <img src="assets/images/step-3.png" alt="Step 3" class="img-fluid">
+                        <p class="mt-auto">Bingo! Now you can export the extracted<br> data in multiple formats as
+                            required.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class=" d-flex flex-column flex-md-row align-items-center justify-content-center mt-4 px-3">
+                <p class="mb-2 mb-md-0 text-center text-md-start desctxt">
+                    Interested in knowing more about automating for your industry?
+                </p>
+                <div class="text-center mt-2 mt-md-0 ms-2">
+                    <a href="#" class="btn contact-btn">
+                        <span>Contact Sales </span>
+                        <svg class="arrow-icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7 17L17 7" stroke="white" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M7 7H17V17" stroke="white" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- About============================== -->
+        <div class="row pt-5 mt-4 marginleftright">
+            <div class="section-title1-cont bg-image-main">
+                <div class="section-title1">ABOUT</div>
+            </div>
+            <div class="description bg-image-main">
+                <h2 class="section-title-text pt-4">Precision Data Conversion for Seamless
+                    Invoicing
+                </h2>
+                <p class="section-txt pt-4 bg-image-main">
+                    Eliminate tedious manual processes, errors, and late payments. Take control of your accounts payable
+                    with full visibility and automated processes.
+                </p>
+            </div>
+            <div class=" text-center py-3 my-specific-container1 margintop">
+                <div class="row justify-content-between">
+                    <div class="col-md-6 col-sm-12 align-items-center margintop50">
+                        <!-- <div class="all-card-cointainer-row1 cont-margin"> -->
                             <div class="all-row-card  ms-3 rounded-5 marg">
                                 <div class="card1-bold-text-container">
                                     <div class="card1-bold-text pt-3">Quick integration with any accounting software
@@ -249,70 +284,70 @@
                                 </div>
                                 <img src="assets/images/cd1.png" alt="Integration" class="img-fluid">
                             </div>
-                            <!-- </div> -->
-                        </div>
-                        <div class="col-md-3 col-sm-12">
-                            <div class="card2-cointainer rounded-5">
-                                <div class="p-3">
-                                    <div class="card2-cointainer-boldtxt-cointainer">
-                                        <div class="card2-cointainer-boldtxt">No Setup Required – to get started</div>
-                                    </div>
-                                    <div class="card2-cointainer-thintxt">Our basic AI model is ready to use for your
-                                        business,
-                                        we also offer customization as per your needs
-                                    </div>
-                                    <img src="assets/images/cd2.png" alt="Integration" class="img-fluid">
+                        <!-- </div> -->
+                    </div>
+                    <div class="col-md-3 col-sm-12">
+                        <div class="card2-cointainer rounded-5">
+                            <div class="p-3">
+                                <div class="card2-cointainer-boldtxt-cointainer">
+                                    <div class="card2-cointainer-boldtxt">No Setup Required – to get started</div>
                                 </div>
+                                <div class="card2-cointainer-thintxt">Our basic AI model is ready to use for your
+                                    business,
+                                    we also offer customization as per your needs
+                                </div>
+                                <img src="assets/images/cd2.png" alt="Integration" class="img-fluid">
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-12">
-                            <div class="card3-cointainer rounded-5">
-                                <div class="p-3">
-                                    <div class="card3-cointainer-boldtxt-cointainer text-start">
-                                        <div class="card3-cointainer-boldtxt">Identify relevant fields</div>
-                                    </div>
-                                    <div class="card3-cointainer-thintxt">Easily access powerful AI tools for data
-                                        extraction
-                                    </div>
-                                    <div class="pt-5">
-                                        <img src="assets/images/cd3.png" alt="Integration" class="img-fluid">
-                                    </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12">
+                        <div class="card3-cointainer rounded-5">
+                            <div class="p-3">
+                                <div class="card3-cointainer-boldtxt-cointainer text-start">
+                                    <div class="card3-cointainer-boldtxt">Identify relevant fields</div>
+                                </div>
+                                <div class="card3-cointainer-thintxt">Easily access powerful AI tools for data
+                                    extraction
+                                </div>
+                                <div class="pt-5">
+                                    <img src="assets/images/cd3.png" alt="Integration" class="img-fluid">
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- second raw -->
-                    <div class="row justify-content-between mt-4">
-                        <div class="col-md-3 col-sm-12">
-                            <div class="card2-cointainer rounded-5">
-                                <div class="p-3 height-390">
-                                    <div class="card2-cointainer-boldtxt-cointainer">
-                                        <div class="card2-cointainer-boldtxt">Ask us for a customize AI solution</div>
-                                    </div>
-                                    <div class="card2-cointainer-thintxt">Yes we currently offer customized solution for
-                                        2 major industries aiming to cover more
-                                    </div>
-                                    <img src="assets/images/cd4.png" alt="Integration" class="img-fluid">
+                </div>
+                <!-- second raw -->
+                <div class="row justify-content-between mt-4">
+                    <div class="col-md-3 col-sm-12">
+                        <div class="card2-cointainer rounded-5">
+                            <div class="p-3 height-390">
+                                <div class="card2-cointainer-boldtxt-cointainer">
+                                    <div class="card2-cointainer-boldtxt">Ask us for a customize AI solution</div>
+                                </div>
+                                <div class="card2-cointainer-thintxt">Yes we currently offer customized solution for
+                                    2 major industries aiming to cover more
+                                </div>
+                                <img src="assets/images/cd4.png" alt="Integration" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12">
+                        <div class="card3-cointainer">
+                            <div class="p-3">
+                                <div class="card3-cointainer-boldtxt-cointainer">
+                                    <div class="card3-cointainer-boldtxt text-start">Advanced Data Extraction</div>
+                                </div>
+                                <div class="card3-cointainer-thintxt">A customized way to extract data value pair from
+                                    your document
+                                </div>
+                                <div class="p-2">
+                                    <img src="assets/images/cd5.png" alt="Integration" class="img-fluid">
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-12">
-                            <div class="card3-cointainer">
-                                <div class="p-3">
-                                    <div class="card3-cointainer-boldtxt-cointainer">
-                                        <div class="card3-cointainer-boldtxt text-start">Advanced Data Extraction</div>
-                                    </div>
-                                    <div class="card3-cointainer-thintxt">A customized way to extract data value pair from
-                                        your document
-                                    </div>
-                                    <div class="p-2">
-                                        <img src="assets/images/cd5.png" alt="Integration" class="img-fluid">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-12 align-items-center">
-                            <!-- <div class="all-card-cointainer-row1 cont-margin"> -->
+                    </div>
+                    <div class="col-md-6 col-sm-12 align-items-center">
+                        <!-- <div class="all-card-cointainer-row1 cont-margin"> -->
                             <div class="all-row-card  ms-3 rounded-5 marg">
                                 <div class="card1-bold-text-container">
                                     <div class="card6-bold-text pt-3">Run at massive scale</div>
@@ -322,284 +357,303 @@
                                         document entry and the potential for businesses to improve productivity
                                     </div>
                                 </div>
-                                <img src="assets/images/cd6.png" alt="Integration" class="img-fluid paddingtop50 ">
+                                <img src="assets/images/cd6.png" alt="Integration" class="img-f1 paddingtop50 ">
                             </div>
-                            <!-- </div> -->
-                        </div>
+                        <!-- </div> -->
                     </div>
                 </div>
-                <!--  first raw finish -->
             </div>
-            <!-- Domain ===================================-->
-            <div class="row ">
-                <div class="domains-container pt-5 mt-4">
-                    <div class="text-center mb-3">
-                        <span class="domain-label rounded-5">DOMAINS</span>
-                    </div>
-                    <div class="text-center mb-4">
-                        <h2 class="domain-header">Leverage our community's efforts</h2>
-                        <p class="domain-subtext">Quickly deploy our engine in use with our pre-built AI workflows for
-                            leading
-                            industries
-                        </p>
-                    </div>
-                    <div class="row g-4 r-style pt-5 domain-blk">
-                        <div class="col-md-4 domaincon1 pt-4 rounded-3">
-                            <div class="d-flex align-items-center mb-3">
-                                <img src="assets/images/logo.png" class="height44">
-                            </div>
-                            <h3 class="domain-title fw-bold pt-3">Edocsmart a smart invoice processing app</h3>
-                            <p class="domain-cont1-text pt-3">EDCSmart is a product-based company that offers a powerful
-                                solution for
-                                scanning documents and extracting data in formats such as Excel or CSV. Our target audience
-                                includes businesses and individuals who need to automate and streamline their document
-                                processing.
-                            </p>
-                            <a href="#" class="btn btn-success domain-contact mb-4">Book A Demo <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M7.5 17.5L17.5 7.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                    <path d="M7.5 7.5H17.5V17.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
-                            </a>
+            <!--  first raw finish -->
+        </div>
+        <!-- Domain ===================================-->
+        <div class="row ">
+            <div class="domains-container pt-5 mt-4">
+                <div class="text-center mb-3">
+                    <span class="domain-label rounded-5">DOMAINS</span>
+                </div>
+                <div class="text-center mb-4">
+                    <h2 class="domain-header">Leverage our community's efforts</h2>
+                    <p class="domain-subtext">Quickly deploy our engine in use with our pre-built AI <br> workflows for leading industries
+                    </p>
+                </div>
+                <div class="row g-4 r-style pt-5 domain-blk">
+                    <div class="col-md-4 domaincon1 pt-4 rounded-3">
+                        <div class="d-flex align-items-center mb-3">
+                            <img src="assets/images/logo.png" class="height44">
                         </div>
-                        <div class="col-md-7 domaincon2 ms-1 pt-4 rounded-3">
-                            <h3 class="domain-title fw-bold ">Industries we serve with our Automation AI software</h3>
-                            <p class="domain-cont2-text pt-3">EDCSmart is a product-based company that offers a powerful
-                                solution for scanning documents and extracting data in formats such as Excel or CSV. Our
-                                target audience includes businesses and individuals who need to automate and streamline their
-                                document processing.
-                            </p>
-                            <div class="doman-img row">
-                                <div class="industry-box p-3 flex-column text-center rounded housecare col-md-4 d-flex flex-wrap justify-content-between d-lg-flex custom-row">
-                                    <p class="fw-bold ">
-                                        <svg width="32" height="27" viewBox="0 0 32 27" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M23.3086 0.361572C19.75 0.361572 17.6484 1.93187 16 4.43967C14.3516 1.92797 12.25 0.361572 8.6914 0.361572C3.9023 0.361572 0 4.25997 0 9.05297C0 14.5725 3.7109 17.303 8.0117 20.451C10.1719 22.0291 12.6133 23.8299 15.0312 26.2401C15.3007 26.5096 15.6523 26.6385 16 26.6385C16.3515 26.6385 16.6992 26.5096 16.9687 26.2401C19.3789 23.8299 21.8281 22.0292 23.9882 20.451C28.289 17.2908 31.9999 14.5721 31.9999 9.05297C31.9999 4.25217 28.1016 0.361572 23.3086 0.361572ZM22.3594 18.2406C20.4102 19.6703 18.2188 21.2797 16 23.3695C13.7695 21.2797 11.5898 19.6781 9.64058 18.2406C5.49218 15.1898 2.74998 13.182 2.74998 9.04917C2.74998 5.76797 5.42188 3.10777 8.69138 3.10777C11.5117 3.10777 12.9922 4.25617 14.7812 7.83827C15.0117 8.29921 15.4921 8.59999 16.0117 8.59999C16.5312 8.59999 17 8.31093 17.2422 7.83827C19.0313 4.26017 20.5117 3.10777 23.332 3.10777C26.6132 3.10777 29.2734 5.77967 29.2734 9.04917C29.2617 13.1742 26.5118 15.1937 22.3594 18.2406Z" fill="black" />
+                        <h3 class="domain-title fw-bold pt-3">Edocsmart a smart invoice processing app</h3>
+                        <p class="domain-cont1-text pt-3">EDCSmart is a product-based company that offers a powerful
+                            solution for
+                            scanning documents and extracting data in formats such as Excel or CSV. Our target audience
+                            includes businesses and individuals who need to automate and streamline their document
+                            processing.
+                        </p>
+                        <a href="#" class="btn btn-success domain-contact mb-4">Book A Demo <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7.5 17.5L17.5 7.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M7.5 7.5H17.5V17.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            </a>
+                    </div>
+                    <div class="col-md-7 domaincon2 ms-1 pt-4 rounded-3">
+                        <h3 class="domain-title fw-bold ">Industries we serve with our Automation AI software</h3>
+                        <p class="domain-cont2-text pt-3">EDCSmart is a product-based company that offers a powerful
+                            solution for scanning documents and extracting data in formats such as Excel or CSV. Our
+                            target audience includes businesses and individuals who need to automate and streamline their
+                            document processing.
+                        </p>
+                        <div class="doman-img row">
+                            <div class="industry-box p-3 flex-column text-center rounded housecare col-md-4 d-flex flex-wrap justify-content-between d-lg-flex custom-row">
+                                <p class="fw-bold ">
+                                    <svg width="32" height="27" viewBox="0 0 32 27" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M23.3086 0.361572C19.75 0.361572 17.6484 1.93187 16 4.43967C14.3516 1.92797 12.25 0.361572 8.6914 0.361572C3.9023 0.361572 0 4.25997 0 9.05297C0 14.5725 3.7109 17.303 8.0117 20.451C10.1719 22.0291 12.6133 23.8299 15.0312 26.2401C15.3007 26.5096 15.6523 26.6385 16 26.6385C16.3515 26.6385 16.6992 26.5096 16.9687 26.2401C19.3789 23.8299 21.8281 22.0292 23.9882 20.451C28.289 17.2908 31.9999 14.5721 31.9999 9.05297C31.9999 4.25217 28.1016 0.361572 23.3086 0.361572ZM22.3594 18.2406C20.4102 19.6703 18.2188 21.2797 16 23.3695C13.7695 21.2797 11.5898 19.6781 9.64058 18.2406C5.49218 15.1898 2.74998 13.182 2.74998 9.04917C2.74998 5.76797 5.42188 3.10777 8.69138 3.10777C11.5117 3.10777 12.9922 4.25617 14.7812 7.83827C15.0117 8.29921 15.4921 8.59999 16.0117 8.59999C16.5312 8.59999 17 8.31093 17.2422 7.83827C19.0313 4.26017 20.5117 3.10777 23.332 3.10777C26.6132 3.10777 29.2734 5.77967 29.2734 9.04917C29.2617 13.1742 26.5118 15.1937 22.3594 18.2406Z"
+                                            fill="black" />
+                                    </svg>
+                                   <span class="margin-left15"> Health Care </span>
+                                </p>
+                                
+                            </div>
+                            <div class="industry-box p-3 flex-column text-center rounded retail col-md-4 d-flex flex-wrap justify-content-between d-lg-flex custom-row">
+                                <p class="fw-bold">
+                                    <svg width="50" height="50" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M31.973 9.57248L30.5511 2.93188C30.2425 1.49438 29.0042 0.494385 27.5355 0.494385H4.4735C3.0047 0.494385 1.7626 1.49438 1.454 2.93578L0.0320985 9.57639C-0.0577455 9.98655 0.0438178 10.4045 0.30163 10.7248C0.42272 10.8732 0.57116 10.9943 0.74304 11.0842C0.731321 11.2443 0.723509 11.4123 0.723509 11.5842C0.723509 12.8928 1.14539 14.1037 1.86411 15.0959V29.0759C1.86411 30.9665 3.40321 32.5056 5.29381 32.5056H26.7158C28.6064 32.5056 30.1455 30.9665 30.1455 29.0759V15.0839C30.8564 14.0956 31.2861 12.8847 31.2861 11.5722C31.2861 11.4003 31.2744 11.244 31.2666 11.0722C31.4385 10.9823 31.5869 10.8612 31.708 10.7128C31.9658 10.3925 32.0629 9.9748 31.973 9.57248ZM28.5433 11.5725C28.5433 13.3733 27.0824 14.8342 25.2816 14.8342C23.4808 14.8342 22.0199 13.3733 22.0199 11.5725C22.0199 11.4514 22.0316 11.342 22.0394 11.2326H28.5277C28.5355 11.3459 28.5433 11.4553 28.5433 11.5725ZM3.4653 11.5725C3.4653 11.4514 3.47702 11.342 3.48483 11.2326H9.97313C9.98485 11.342 9.99266 11.4631 9.99266 11.5725C9.99266 13.3733 8.53176 14.8342 6.73096 14.8342C4.93406 14.8342 3.4653 13.3733 3.4653 11.5725ZM12.7544 11.2326H19.2427C19.2544 11.342 19.2622 11.4631 19.2622 11.5725C19.2622 13.3733 17.8013 14.8342 16.0005 14.8342C14.1997 14.8342 12.7388 13.3733 12.7388 11.5725C12.7427 11.4553 12.7427 11.3459 12.7544 11.2326ZM4.145 3.50604C4.18406 3.33416 4.30516 3.23652 4.48484 3.23652H27.5438C27.7157 3.23652 27.8446 3.33807 27.8837 3.50604L28.954 8.48655L3.07498 8.48264L4.145 3.50604ZM17.766 29.756H14.2465V23.6857H17.766V29.756ZM26.7152 29.756H20.5043V22.3146C20.5043 21.5529 19.8949 20.9435 19.1332 20.9435H12.8715C12.1098 20.9435 11.5004 21.5529 11.5004 22.3146V29.756H5.2895C4.91841 29.756 4.59809 29.4357 4.59809 29.0646L4.6059 17.1936C5.26606 17.4436 5.9848 17.5843 6.7348 17.5843C8.5942 17.5843 10.266 16.7327 11.3754 15.3929C12.477 16.7327 14.1449 17.5843 16.016 17.5843C17.8871 17.5843 19.5472 16.7327 20.6566 15.3929C21.7582 16.7327 23.4261 17.5843 25.2972 17.5843C26.0472 17.5843 26.766 17.4436 27.4261 17.1936V29.0646C27.4027 29.4357 27.0824 29.756 26.7152 29.756Z" fill="black"/>
                                         </svg>
-                                        <span class="margin-left15"> Health Care </span>
+                                        <span class="margin-left15"> Retail Industry </span>    
                                     </p>
-
-                                </div>
-                                <div class="industry-box p-3 flex-column text-center rounded retail col-md-4 d-flex flex-wrap justify-content-between d-lg-flex custom-row">
-                                    <p class="fw-bold">
-                                        <svg width="50" height="50" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M31.973 9.57248L30.5511 2.93188C30.2425 1.49438 29.0042 0.494385 27.5355 0.494385H4.4735C3.0047 0.494385 1.7626 1.49438 1.454 2.93578L0.0320985 9.57639C-0.0577455 9.98655 0.0438178 10.4045 0.30163 10.7248C0.42272 10.8732 0.57116 10.9943 0.74304 11.0842C0.731321 11.2443 0.723509 11.4123 0.723509 11.5842C0.723509 12.8928 1.14539 14.1037 1.86411 15.0959V29.0759C1.86411 30.9665 3.40321 32.5056 5.29381 32.5056H26.7158C28.6064 32.5056 30.1455 30.9665 30.1455 29.0759V15.0839C30.8564 14.0956 31.2861 12.8847 31.2861 11.5722C31.2861 11.4003 31.2744 11.244 31.2666 11.0722C31.4385 10.9823 31.5869 10.8612 31.708 10.7128C31.9658 10.3925 32.0629 9.9748 31.973 9.57248ZM28.5433 11.5725C28.5433 13.3733 27.0824 14.8342 25.2816 14.8342C23.4808 14.8342 22.0199 13.3733 22.0199 11.5725C22.0199 11.4514 22.0316 11.342 22.0394 11.2326H28.5277C28.5355 11.3459 28.5433 11.4553 28.5433 11.5725ZM3.4653 11.5725C3.4653 11.4514 3.47702 11.342 3.48483 11.2326H9.97313C9.98485 11.342 9.99266 11.4631 9.99266 11.5725C9.99266 13.3733 8.53176 14.8342 6.73096 14.8342C4.93406 14.8342 3.4653 13.3733 3.4653 11.5725ZM12.7544 11.2326H19.2427C19.2544 11.342 19.2622 11.4631 19.2622 11.5725C19.2622 13.3733 17.8013 14.8342 16.0005 14.8342C14.1997 14.8342 12.7388 13.3733 12.7388 11.5725C12.7427 11.4553 12.7427 11.3459 12.7544 11.2326ZM4.145 3.50604C4.18406 3.33416 4.30516 3.23652 4.48484 3.23652H27.5438C27.7157 3.23652 27.8446 3.33807 27.8837 3.50604L28.954 8.48655L3.07498 8.48264L4.145 3.50604ZM17.766 29.756H14.2465V23.6857H17.766V29.756ZM26.7152 29.756H20.5043V22.3146C20.5043 21.5529 19.8949 20.9435 19.1332 20.9435H12.8715C12.1098 20.9435 11.5004 21.5529 11.5004 22.3146V29.756H5.2895C4.91841 29.756 4.59809 29.4357 4.59809 29.0646L4.6059 17.1936C5.26606 17.4436 5.9848 17.5843 6.7348 17.5843C8.5942 17.5843 10.266 16.7327 11.3754 15.3929C12.477 16.7327 14.1449 17.5843 16.016 17.5843C17.8871 17.5843 19.5472 16.7327 20.6566 15.3929C21.7582 16.7327 23.4261 17.5843 25.2972 17.5843C26.0472 17.5843 26.766 17.4436 27.4261 17.1936V29.0646C27.4027 29.4357 27.0824 29.756 26.7152 29.756Z"
-                                                fill="black" />
-                                        </svg>
-                                        <span class="margin-left15"> Retail Industry </span>
-                                    </p>
-                                </div>
+                            </div>
                                 <div class="industry-box realestate pt-3 rounded col-md-4 flex-column">
 
 
-                                    <p class="fw-bold">
-                                        <svg width="30" height="30" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M30.23 8.69579L17.859 1.24659C16.6793 0.535653 15.2574 0.535653 14.0778 1.25831L1.80076 8.69581C0.691362 9.3755 0.0507625 10.5044 0.0390625 11.8052L0 28.6252C0 29.6135 0.371091 30.5158 1.0703 31.215C1.76952 31.9142 2.6601 32.2853 3.6601 32.2853H28.3011C30.3128 32.2853 31.9495 30.6564 31.9495 28.6447L32.0003 11.8247C32.0003 10.5161 31.3588 9.36769 30.23 8.69579ZM20.7691 29.5478H11.3472V21.4189C11.3472 20.79 11.8589 20.29 12.4761 20.29H19.6245C20.2534 20.29 20.7534 20.8017 20.7534 21.4189L20.7612 29.5478H20.7691ZM29.2183 28.6376C29.2183 29.1376 28.8081 29.5478 28.3081 29.5478H23.519V21.4189C23.519 19.2783 21.7807 17.5478 19.6479 17.5478H12.4995C10.3589 17.5478 8.6284 19.2861 8.6284 21.4189V29.5478H3.6675C3.39797 29.5478 3.20656 29.4697 3.01906 29.2783C2.82765 29.0869 2.74953 28.8994 2.74953 28.6298L2.78859 11.8208C2.78859 11.481 2.93703 11.2193 3.23 11.0396L15.511 3.59037C15.6594 3.50053 15.8196 3.44975 15.9798 3.44975C16.1399 3.44975 16.3001 3.50053 16.4485 3.59037L28.8195 11.0396C29.1086 11.2193 29.2609 11.481 29.2609 11.8208L29.2183 28.6376ZM18.6913 10.5356C18.6913 11.2974 18.0819 11.9067 17.3202 11.9067H14.8007C14.0389 11.9067 13.4296 11.2974 13.4296 10.5356C13.4296 9.77391 14.0389 9.16453 14.8007 9.16453H17.3202C18.078 9.16844 18.6913 9.77781 18.6913 10.5356Z" fill="black" />
+                                <p class="fw-bold">
+                                    <svg width="30" height="30" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M30.23 8.69579L17.859 1.24659C16.6793 0.535653 15.2574 0.535653 14.0778 1.25831L1.80076 8.69581C0.691362 9.3755 0.0507625 10.5044 0.0390625 11.8052L0 28.6252C0 29.6135 0.371091 30.5158 1.0703 31.215C1.76952 31.9142 2.6601 32.2853 3.6601 32.2853H28.3011C30.3128 32.2853 31.9495 30.6564 31.9495 28.6447L32.0003 11.8247C32.0003 10.5161 31.3588 9.36769 30.23 8.69579ZM20.7691 29.5478H11.3472V21.4189C11.3472 20.79 11.8589 20.29 12.4761 20.29H19.6245C20.2534 20.29 20.7534 20.8017 20.7534 21.4189L20.7612 29.5478H20.7691ZM29.2183 28.6376C29.2183 29.1376 28.8081 29.5478 28.3081 29.5478H23.519V21.4189C23.519 19.2783 21.7807 17.5478 19.6479 17.5478H12.4995C10.3589 17.5478 8.6284 19.2861 8.6284 21.4189V29.5478H3.6675C3.39797 29.5478 3.20656 29.4697 3.01906 29.2783C2.82765 29.0869 2.74953 28.8994 2.74953 28.6298L2.78859 11.8208C2.78859 11.481 2.93703 11.2193 3.23 11.0396L15.511 3.59037C15.6594 3.50053 15.8196 3.44975 15.9798 3.44975C16.1399 3.44975 16.3001 3.50053 16.4485 3.59037L28.8195 11.0396C29.1086 11.2193 29.2609 11.481 29.2609 11.8208L29.2183 28.6376ZM18.6913 10.5356C18.6913 11.2974 18.0819 11.9067 17.3202 11.9067H14.8007C14.0389 11.9067 13.4296 11.2974 13.4296 10.5356C13.4296 9.77391 14.0389 9.16453 14.8007 9.16453H17.3202C18.078 9.16844 18.6913 9.77781 18.6913 10.5356Z" fill="black"/>
                                         </svg>
-                                        <span class="margin-left5"> Real Estate</span></s>
-                                    </p>
-                                </div>
+                                        <span class="margin-left5"> Real Estate</span></s></p>
+                            </div>
                                 <div class="industry-box p-3 flex-column text-center rounded warehouse col-md-4 d-flex flex-wrap justify-content-between align-items-center gap-3 d-lg-flex custom-row">
 
-
-                                    <p class="fw-bold">
-                                        <svg width="30" height="30" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M29.88 5.39116L16.36 0.561158C16.1272 0.477986 15.8728 0.477986 15.64 0.561158L2.12 5.39116C1.50053 5.61479 0.964833 6.02356 0.585588 6.56202C0.206343 7.10048 0.00190324 7.74256 0 8.40116V29.3012C0 30.1498 0.337142 30.9638 0.937258 31.5639C1.53737 32.164 2.35131 32.5012 3.2 32.5012H28.8C29.6477 32.4975 30.4598 32.1598 31.06 31.5612C31.3582 31.2652 31.5948 30.9131 31.7562 30.5252C31.9175 30.1373 32.0004 29.7213 32 29.3012V8.40116C31.9981 7.74256 31.7937 7.10048 31.4144 6.56202C31.0352 6.02356 30.4995 5.61479 29.88 5.39116ZM11.73 23.9712H7.47V19.7012H11.74L11.73 23.9712ZM7.47 26.1012H11.74V30.3712H7.47V26.1012ZM13.87 30.3712V26.1012H18.14V30.3712H13.87ZM20.27 30.3712V25.0312C20.27 24.7474 20.1573 24.4752 19.9566 24.2746C19.7559 24.0739 19.4838 23.9612 19.2 23.9612H13.87V18.6312C13.87 18.3474 13.7573 18.0752 13.5566 17.8746C13.3559 17.6739 13.0838 17.5612 12.8 17.5612H7.47V14.3612C7.47 14.0774 7.58273 13.8052 7.7834 13.6046C7.98406 13.4039 8.25622 13.2912 8.54 13.2912H23.47C23.7538 13.2912 24.0259 13.4039 24.2266 13.6046C24.4273 13.8052 24.54 14.0774 24.54 14.3612V30.3612L20.27 30.3712ZM29.87 29.3012C29.87 29.5849 29.7573 29.8571 29.5566 30.0578C29.3559 30.2584 29.0838 30.3712 28.8 30.3712H26.67V14.3712C26.67 13.9509 26.5872 13.5348 26.4264 13.1466C26.2656 12.7583 26.0299 12.4056 25.7327 12.1084C25.4356 11.8113 25.0828 11.5756 24.6946 11.4147C24.3063 11.2539 23.8902 11.1712 23.47 11.1712H8.53C8.10988 11.1708 7.69384 11.2537 7.30594 11.415C6.91803 11.5763 6.56594 11.813 6.27 12.1112C5.6714 12.7114 5.33363 13.5235 5.33 14.3712V30.3712H3.2C3.05949 30.3712 2.92035 30.3435 2.79053 30.2897C2.66071 30.2359 2.54275 30.1571 2.4434 30.0578C2.34404 29.9584 2.26522 29.8404 2.21145 29.7106C2.15768 29.5808 2.13 29.4417 2.13 29.3012V8.40116C2.13156 8.18179 2.20052 7.96821 2.32751 7.78934C2.45451 7.61047 2.63342 7.47496 2.84 7.40116L16 2.70116L29.16 7.40116C29.3666 7.47496 29.5455 7.61047 29.6725 7.78934C29.7995 7.96821 29.8684 8.18179 29.87 8.40116V29.3012Z"
-                                                fill="black" />
+                                
+                                <p class="fw-bold">
+                                    <svg width="30" height="30" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M29.88 5.39116L16.36 0.561158C16.1272 0.477986 15.8728 0.477986 15.64 0.561158L2.12 5.39116C1.50053 5.61479 0.964833 6.02356 0.585588 6.56202C0.206343 7.10048 0.00190324 7.74256 0 8.40116V29.3012C0 30.1498 0.337142 30.9638 0.937258 31.5639C1.53737 32.164 2.35131 32.5012 3.2 32.5012H28.8C29.6477 32.4975 30.4598 32.1598 31.06 31.5612C31.3582 31.2652 31.5948 30.9131 31.7562 30.5252C31.9175 30.1373 32.0004 29.7213 32 29.3012V8.40116C31.9981 7.74256 31.7937 7.10048 31.4144 6.56202C31.0352 6.02356 30.4995 5.61479 29.88 5.39116ZM11.73 23.9712H7.47V19.7012H11.74L11.73 23.9712ZM7.47 26.1012H11.74V30.3712H7.47V26.1012ZM13.87 30.3712V26.1012H18.14V30.3712H13.87ZM20.27 30.3712V25.0312C20.27 24.7474 20.1573 24.4752 19.9566 24.2746C19.7559 24.0739 19.4838 23.9612 19.2 23.9612H13.87V18.6312C13.87 18.3474 13.7573 18.0752 13.5566 17.8746C13.3559 17.6739 13.0838 17.5612 12.8 17.5612H7.47V14.3612C7.47 14.0774 7.58273 13.8052 7.7834 13.6046C7.98406 13.4039 8.25622 13.2912 8.54 13.2912H23.47C23.7538 13.2912 24.0259 13.4039 24.2266 13.6046C24.4273 13.8052 24.54 14.0774 24.54 14.3612V30.3612L20.27 30.3712ZM29.87 29.3012C29.87 29.5849 29.7573 29.8571 29.5566 30.0578C29.3559 30.2584 29.0838 30.3712 28.8 30.3712H26.67V14.3712C26.67 13.9509 26.5872 13.5348 26.4264 13.1466C26.2656 12.7583 26.0299 12.4056 25.7327 12.1084C25.4356 11.8113 25.0828 11.5756 24.6946 11.4147C24.3063 11.2539 23.8902 11.1712 23.47 11.1712H8.53C8.10988 11.1708 7.69384 11.2537 7.30594 11.415C6.91803 11.5763 6.56594 11.813 6.27 12.1112C5.6714 12.7114 5.33363 13.5235 5.33 14.3712V30.3712H3.2C3.05949 30.3712 2.92035 30.3435 2.79053 30.2897C2.66071 30.2359 2.54275 30.1571 2.4434 30.0578C2.34404 29.9584 2.26522 29.8404 2.21145 29.7106C2.15768 29.5808 2.13 29.4417 2.13 29.3012V8.40116C2.13156 8.18179 2.20052 7.96821 2.32751 7.78934C2.45451 7.61047 2.63342 7.47496 2.84 7.40116L16 2.70116L29.16 7.40116C29.3666 7.47496 29.5455 7.61047 29.6725 7.78934C29.7995 7.96821 29.8684 8.18179 29.87 8.40116V29.3012Z" fill="black"/>
                                         </svg>
-                                        <span class="margin-left5"> Warehouse
-                                    </p></span>
-                                </div>
-                            </div>
-                            <div class="d-flex flex-column flex-md-row align-items-center mt-4 col-md-8">
-                                <p class="domain-cot mb-2 mb-md-0">
-                                    Not finding your industry listed here, Looking for a customized solution?
-                                </p>
-                                <div class="text-center mt-2 mt-md-0 ms-md-3 col-md-4">
-                                    <a href="#" class="btn domain-contactsales d-flex align-items-center rounded-3">
-                                        <span>Contact Sales</span>
-                                        <svg class="arrow-icon ms-1" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M7 17L17 7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                            <path d="M7 7H17V17" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
-                                    </a>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-
-            <!-- Carousel -->
-            <div id="testimonialCarousel" class="carousel slide pt-4 testimonial-container" data-bs-ride="carousel">
-                <div class="carousel-inner p-4 margintop90">
-                    <div class="carousel-item active">
-                        <div class="testimonial-card text-center p-4">
-                            <p class="fs-4 text-start starcolor">★★★★★</p>
-                            <p class="domaintxt">Mixed feelings but adequate results. Pros: technical skills & Intuition
-                                about colors, fonts, & layout styles. Cons: Communication, English, Detail Orientation,
-                                Creativity, Following the Brief (Style guide, sample website, text requested). Off the mark
-                                2 day delivery, and 5-days of revision for one landing (good) page.</p>
-                            <div class="user-info d-flex text-start">
-                                <img src="assets/images/proflie-img.png" class="rounded-circle me-2" class="height-weight" alt="User">
-                                <div class="text-start">
-                                    <div class="user-name fw-bold">John Doe</div>
-                                    <div class="user-role text-muted">Company ABC</div>
-                                </div>
+                                     <span class="margin-left5">   Warehouse</p></span>
                             </div>
                         </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="testimonial-card text-center p-4">
-                            <p class="fs-4 text-start starcolor">★★★★☆</p>
-                            <p class="domaintxt">Mixed feelings but adequate results. Pros: technical skills & Intuition
-                                about colors, fonts, & layout styles. Cons: Communication, English, Detail Orientation,
-                                Creativity, Following the Brief (Style guide, sample website, text requested). Off the mark
-                                2 day delivery, and 5-days of revision for one landing (good) page.</p>
-                            <div class="user-info d-flex text-start">
-                                <img src="assets/images/profile-img2.png" class="rounded-circle me-2" class="height-weight" alt="User">
-                                <div class="text-start">
-                                    <div class="user-name fw-bold">Jane Smith</div>
-                                    <div class="user-role text-muted">Company XYZ</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                </div>
-            </div>
-
-
-            <!-- FAQ -->
-            <div class="py-5">
-                <div class="text-center">
-                    <h2 class=" faq-header">Frequently asked questions</h2>
-                    <p class="text-muted faq-description">Aenean quis est erat. Pellentesque pretium convallis ligula, vite
-                        euismod nisl vehicula non. In felis leo, faucibus vel sagittis pharetra, varius ullamcorper quam.
-                    <p>
-                    <div class="my-specific-container">
-                        <div class="d-flex justify-content-center gap-3 btn-top">
-                            <button class="btn btn-success helpcolor"><svg width="28" height="32" viewBox="0 0 28 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <g filter="url(#filter0_d_199_5986)">
-                                        <path d="M23.1365 12.4502H20.1365C19.7387 12.4502 19.3571 12.6082 19.0758 12.8895C18.7945 13.1708 18.6365 13.5524 18.6365 13.9502V17.7002C18.6365 18.098 18.7945 18.4796 19.0758 18.7609C19.3571 19.0422 19.7387 19.2002 20.1365 19.2002H21.6365C22.0343 19.2002 22.4158 19.0422 22.6971 18.7609C22.9784 18.4796 23.1365 18.098 23.1365 17.7002V12.4502ZM23.1365 12.4502C23.1365 11.2626 22.9014 10.0867 22.4449 8.99029C21.9883 7.89392 21.3192 6.89876 20.4763 6.06216C19.6333 5.22556 18.6331 4.56407 17.5333 4.11583C16.4335 3.66759 15.2558 3.44145 14.0682 3.45045C12.8806 3.44145 11.703 3.66759 10.6032 4.11583C9.50339 4.56407 8.50318 5.22556 7.66021 6.06216C6.81725 6.89876 6.1482 7.89392 5.69163 8.99029C5.23506 10.0867 5 11.2626 5 12.4502V17.7002C5 18.098 5.15804 18.4796 5.43934 18.7609C5.72064 19.0422 6.10218 19.2002 6.5 19.2002H8C8.39782 19.2002 8.77936 19.0422 9.06066 18.7609C9.34196 18.4796 9.5 18.098 9.5 17.7002V13.9502C9.5 13.5524 9.34196 13.1708 9.06066 12.8895C8.77936 12.6082 8.39782 12.4502 8 12.4502H5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                        <path d="M23.1365 17.7002V19.9502C23.1365 20.7458 22.8204 21.5089 22.2578 22.0715C21.6952 22.6341 20.9321 22.9502 20.1365 22.9502H14.75" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                    </g>
-                                    <defs>
-                                        <filter id="filter0_d_199_5986" x="-2" y="0.450195" width="32" height="32" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
-                                            <feOffset dy="4" />
-                                            <feGaussianBlur stdDeviation="2" />
-                                            <feComposite in2="hardAlpha" operator="out" />
-                                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-                                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_199_5986" />
-                                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_199_5986" result="shape" />
-                                        </filter>
-                                    </defs>
-                                </svg>
-                                <span>Help Center</span>
-                            </button>
-                            <button class="btn btn-outline-success faq-btn-color">Privacy Policy</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion mt-4 faqborder rounded-5" id="faqAccordion">
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
-                                What workflow can I automate with AI?
-                            </button>
-                        </h2>
-                        <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
-                            <div class="accordion-body faq-btn-color">Yes</div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
-                                Is it free?
-                            </button>
-                        </h2>
-                        <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                            <div class="accordion-body faq-btn-color">Nam sit amet neque auctor, dignissim augue eu...</div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
-                                How do I get started?
-                            </button>
-                        </h2>
-                        <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                            <div class="accordion-body faq-btn-color">To get started, simply sign up and follow the steps...</div>
-                        </div>
-                    </div>
-
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
-                                Is it free?
-                            </button>
-                        </h2>
-                        <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                            <div class="accordion-body faq-btn-color">Nam sit amet neque auctor, dignissim augue eu...</div>
-                        </div>
-                    </div>
-
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
-                                Is it free?
-                            </button>
-                        </h2>
-                        <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                            <div class="accordion-body faq-btn-color">Nam sit amet neque auctor, dignissim augue eu...</div>
-                        </div>
-                    </div>
-
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq6">
-                                Is it free?
-                            </button>
-                        </h2>
-                        <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                            <div class="accordion-body faq-btn-color">Nam sit amet neque auctor, dignissim augue eu...</div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <!-- Newsletter Section -->
-            <div class="container my-5">
-                <div class="newsletter-section bg-white p-4 p-md-5 rounded-4 shadow-sm sign-top">
-                    <div class="row align-items-center newspace">
-                        <!-- Text Section -->
-                        <div class="col-md-4">
-                            <h3 class="fw-bold  signup-headertext">Sign up to our newsletter!</h3>
-                            <p class="mb-0  signuptext">
-                                Stay in the loop with the latest updates, exclusive offers, and
-                                financial tips by signing up for our newsletter.
+                        <div class="d-flex flex-column flex-md-row align-items-center mt-4 col-md-8">
+                            <p class="domain-cot mb-2 mb-md-0">
+                                Not finding your industry listed here, Looking for a customized solution?
                             </p>
+                            <div class="text-center mt-2 mt-md-0 ms-md-3 col-md-4">
+                                <a href="#" class="btn domain-contactsales d-flex align-items-center rounded-3">
+                                    <span>Contact Sales</span>
+                                    <svg class="arrow-icon ms-1" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7 17L17 7" stroke="white" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path d="M7 7H17V17" stroke="white" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                            </div>
                         </div>
-                        <!-- Input Section -->
-                        <div class="col-md-6 mt-3 mt-md-0">
-                            <div class="d-flex flex-column flex-md-row">
-                                <input type="email" class="form-control  mb-2 mb-md-0 placeholder-grey" placeholder="Enter your email">
-                                <button class="btn btn-success px-4 fw-bold helpcolor ms-md-2 flex-shrink-0">Get Started</button>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Carousel -->
+        <div id="testimonialCarousel" class="carousel slide pt-4 testimonial-container" data-bs-ride="carousel">
+            <div class="carousel-inner p-4 margintop90">
+                <div class="carousel-item active">
+                    <div class="testimonial-card text-center p-4">
+                        <p class="fs-4 text-start starcolor">★★★★★</p>
+                        <p class="domaintxt">Mixed feelings but adequate results. Pros: technical skills & Intuition
+                            about colors, fonts, & layout styles. Cons: Communication, English, Detail Orientation,
+                            Creativity, Following the Brief (Style guide, sample website, text requested). Off the mark
+                            2 day delivery, and 5-days of revision for one landing (good) page.</p>
+                        <div class="user-info d-flex text-start">
+                            <img src="assets/images/proflie-img.png" class="rounded-circle me-2" class="height-weight"
+                                alt="User">
+                            <div class="text-start">
+                                <div class="user-name fw-bold">John Doe</div>
+                                <div class="user-role text-muted">Company ABC</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="testimonial-card text-center p-4">
+                        <p class="fs-4 text-start starcolor">★★★★☆</p>
+                        <p class="domaintxt">Mixed feelings but adequate results. Pros: technical skills & Intuition
+                            about colors, fonts, & layout styles. Cons: Communication, English, Detail Orientation,
+                            Creativity, Following the Brief (Style guide, sample website, text requested). Off the mark
+                            2 day delivery, and 5-days of revision for one landing (good) page.</p>
+                        <div class="user-info d-flex text-start">
+                            <img src="assets/images/profile-img2.png" class="rounded-circle me-2" class="height-weight"
+                                alt="User">
+                            <div class="text-start">
+                                <div class="user-name fw-bold">Jane Smith</div>
+                                <div class="user-role text-muted">Company XYZ</div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- Footer -->
-            <!-- <footer class="footer last-footer py-4">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+            </div>
+        </div>
+
+
+        <!-- FAQ -->
+        <div class="py-5">
+            <div class="text-center">
+                <h2 class=" faq-header">Frequently asked questions</h2>
+                <p class="text-muted faq-description">Aenean quis est erat. Pellentesque pretium convallis ligula, vite
+                    euismod nisl vehicula non. In felis leo, faucibus vel sagittis pharetra, varius ullamcorper quam.
+                <p>
+                <div class="my-specific-container">
+                    <div class="d-flex justify-content-center gap-3 btn-top">
+                        <button class="btn btn-success helpcolor"><svg width="28" height="32" viewBox="0 0 28 32"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g filter="url(#filter0_d_199_5986)">
+                                    <path
+                                        d="M23.1365 12.4502H20.1365C19.7387 12.4502 19.3571 12.6082 19.0758 12.8895C18.7945 13.1708 18.6365 13.5524 18.6365 13.9502V17.7002C18.6365 18.098 18.7945 18.4796 19.0758 18.7609C19.3571 19.0422 19.7387 19.2002 20.1365 19.2002H21.6365C22.0343 19.2002 22.4158 19.0422 22.6971 18.7609C22.9784 18.4796 23.1365 18.098 23.1365 17.7002V12.4502ZM23.1365 12.4502C23.1365 11.2626 22.9014 10.0867 22.4449 8.99029C21.9883 7.89392 21.3192 6.89876 20.4763 6.06216C19.6333 5.22556 18.6331 4.56407 17.5333 4.11583C16.4335 3.66759 15.2558 3.44145 14.0682 3.45045C12.8806 3.44145 11.703 3.66759 10.6032 4.11583C9.50339 4.56407 8.50318 5.22556 7.66021 6.06216C6.81725 6.89876 6.1482 7.89392 5.69163 8.99029C5.23506 10.0867 5 11.2626 5 12.4502V17.7002C5 18.098 5.15804 18.4796 5.43934 18.7609C5.72064 19.0422 6.10218 19.2002 6.5 19.2002H8C8.39782 19.2002 8.77936 19.0422 9.06066 18.7609C9.34196 18.4796 9.5 18.098 9.5 17.7002V13.9502C9.5 13.5524 9.34196 13.1708 9.06066 12.8895C8.77936 12.6082 8.39782 12.4502 8 12.4502H5"
+                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M23.1365 17.7002V19.9502C23.1365 20.7458 22.8204 21.5089 22.2578 22.0715C21.6952 22.6341 20.9321 22.9502 20.1365 22.9502H14.75"
+                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </g>
+                                <defs>
+                                    <filter id="filter0_d_199_5986" x="-2" y="0.450195" width="32" height="32"
+                                        filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                        <feColorMatrix in="SourceAlpha" type="matrix"
+                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                        <feOffset dy="4" />
+                                        <feGaussianBlur stdDeviation="2" />
+                                        <feComposite in2="hardAlpha" operator="out" />
+                                        <feColorMatrix type="matrix"
+                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                                        <feBlend mode="normal" in2="BackgroundImageFix"
+                                            result="effect1_dropShadow_199_5986" />
+                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_199_5986"
+                                            result="shape" />
+                                    </filter>
+                                </defs>
+                            </svg>
+                            <span>Help Center</span>
+                        </button>
+                        <button class="btn btn-outline-success faq-btn-color">Privacy Policy</button>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion mt-4 faqborder rounded-5" id="faqAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                            What workflow can I automate with AI?
+                        </button>
+                    </h2>
+                    <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body faq-btn-color">Yes</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faq2">
+                            Is it free?
+                        </button>
+                    </h2>
+                    <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body faq-btn-color">Nam sit amet neque auctor, dignissim augue eu...</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faq3">
+                            How do I get started?
+                        </button>
+                    </h2>
+                    <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body faq-btn-color">To get started, simply sign up and follow the steps...</div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faq4">
+                            Is it free?
+                        </button>
+                    </h2>
+                    <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body faq-btn-color">Nam sit amet neque auctor, dignissim augue eu...</div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faq5">
+                            Is it free?
+                        </button>
+                    </h2>
+                    <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body faq-btn-color">Nam sit amet neque auctor, dignissim augue eu...</div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faq6">
+                            Is it free?
+                        </button>
+                    </h2>
+                    <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body faq-btn-color">Nam sit amet neque auctor, dignissim augue eu...</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- Newsletter Section -->
+        <div class="container my-5">
+            <div class="newsletter-section bg-white p-4 p-md-5 rounded-4 shadow-sm sign-top">
+                <div class="row align-items-center newspace">
+                    <!-- Text Section -->
+                    <div class="col-md-4">
+                        <h3 class="fw-bold  signup-headertext">Sign up to our newsletter!</h3>
+                        <p class="mb-0  signuptext">
+                            Stay in the loop with the latest updates, exclusive offers, and
+                            financial tips by signing up for our newsletter.
+                        </p>
+                    </div>
+                    <!-- Input Section -->
+                    <div class="col-md-6 mt-3 mt-md-0">
+                        <div class="d-flex flex-column flex-md-row">
+                          <input type="email" class="form-control  mb-2 mb-md-0 placeholder-grey" placeholder="Enter your email">
+                          <button class="btn btn-success px-4 fw-bold helpcolor ms-md-2 flex-shrink-0">Get Started</button>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+        <!-- <footer class="footer last-footer py-4">
             <div class="container d-flex justify-content-between align-items-center flex-wrap">
                 <img src="/path-to-logo.png" alt="Logo" height="50">
                 <div class="d-flex gap-3">
@@ -609,58 +663,64 @@
                 </div>
             </div>
             </footer> -->
-            <footer class="footer last-footer ">
-                <div class="d-flex flex-sm-row flex-column justify-content-between  flex-wrap">
-                    <!-- Logo -->
-                    <div class="footer-logo">
-                        <img src="assets/images/logo.png" alt="Edocsmart Logo" class="height50">
-                    </div>
-                    <!-- Social Icons -->
-                    <div class="social-icons d-flex">
-                        <a href="#" class="social-icon">
-                            <i class="bi bi-instagram"></i>
-                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M11 0C13.8872 0 14.247 0.0113334 15.3789 0.0637501C16.5122 0.116167 17.2815 0.294667 17.9601 0.558167C18.6599 0.827333 19.2521 1.19283 19.8414 1.78217C20.3826 2.31342 20.8005 2.95658 21.0668 3.66633C21.3289 4.34208 21.5074 5.11417 21.5612 6.24467C21.6108 7.378 21.625 7.73783 21.625 10.625C21.625 13.5122 21.6137 13.872 21.5612 15.0039C21.5088 16.1372 21.3303 16.9065 21.0668 17.5851C20.8005 18.2934 20.3826 18.9366 19.8414 19.4664C19.3105 20.0064 18.6686 20.4246 17.9601 20.6918C17.2829 20.9539 16.5108 21.1324 15.3789 21.1862C14.247 21.2358 13.8872 21.25 11 21.25C8.11283 21.25 7.753 21.2387 6.62108 21.1862C5.48775 21.1338 4.7185 20.9553 4.03992 20.6918C3.33049 20.4255 2.68789 20.0073 2.15717 19.4664C1.61734 18.9357 1.19965 18.2937 0.933167 17.5851C0.669667 16.9079 0.491167 16.1358 0.43875 15.0039C0.389167 13.8734 0.375 13.5122 0.375 10.625C0.375 7.73783 0.386333 7.378 0.43875 6.24608C0.491167 5.11275 0.669667 4.3435 0.933167 3.66492C1.19808 2.95658 1.61742 2.31342 2.15717 1.78217C2.68859 1.24182 3.33163 0.824083 4.04133 0.558167C4.7185 0.294667 5.48775 0.116167 6.61967 0.0637501C7.75442 0.0141668 8.11425 0 11 0ZM11 5.3125C9.59104 5.3125 8.23978 5.87221 7.24349 6.86849C6.24721 7.86478 5.6875 9.21604 5.6875 10.625C5.6875 12.034 6.24721 13.3852 7.24349 14.3815C8.23978 15.3778 9.59104 15.9375 11 15.9375C12.409 15.9375 13.7602 15.3778 14.7565 14.3815C15.7528 13.3852 16.3125 12.034 16.3125 10.625C16.3125 9.21604 15.7528 7.86478 14.7565 6.86849C13.7602 5.87221 12.409 5.3125 11 5.3125ZM17.9062 5.04617C17.9121 4.86811 17.882 4.69069 17.8179 4.52448C17.7538 4.35826 17.6569 4.20664 17.533 4.07862C17.4091 3.95061 17.2607 3.84881 17.0967 3.77929C16.9326 3.70978 16.7563 3.67395 16.5781 3.67395C16.4 3.67395 16.2236 3.70978 16.0596 3.77929C15.8956 3.84881 15.7472 3.95061 15.6233 4.07862C15.4994 4.20664 15.4025 4.35826 15.3384 4.52448C15.2742 4.69069 15.2442 4.86811 15.25 5.04617C15.2613 5.3909 15.4061 5.71775 15.654 5.95763C15.9018 6.1975 16.2332 6.33162 16.5781 6.33162C16.923 6.33162 17.2544 6.1975 17.5023 5.95763C17.7501 5.71775 17.895 5.3909 17.9062 5.04617ZM11 7.4375C11.8454 7.4375 12.6561 7.77332 13.2539 8.3711C13.8517 8.96887 14.1875 9.77962 14.1875 10.625C14.1875 11.4704 13.8517 12.2811 13.2539 12.8789C12.6561 13.4767 11.8454 13.8125 11 13.8125C10.1546 13.8125 9.34387 13.4767 8.7461 12.8789C8.14832 12.2811 7.8125 11.4704 7.8125 10.625C7.8125 9.77962 8.14832 8.96887 8.7461 8.3711C9.34387 7.77332 10.1546 7.4375 11 7.4375Z"
-                                    fill="#65AD4C" />
-                            </svg>
-                        </a>
-                        <a href="#" class="social-icon">
-                            <i class="bi bi-twitter"></i>
-                            <svg width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M21.6566 2.09327C20.8463 2.45168 19.9849 2.68827 19.1052 2.79168C20.0334 2.23663 20.7282 1.36308 21.0602 0.333768C20.188 0.851676 19.2335 1.21631 18.2382 1.41185C17.5698 0.695491 16.6833 0.220173 15.7167 0.0598723C14.7502 -0.100429 13.7578 0.0632786 12.8939 0.525517C12.03 0.987754 11.3432 1.72259 10.9403 2.61567C10.5373 3.50875 10.441 4.50997 10.6661 5.46352C8.89933 5.37501 7.17092 4.91596 5.59307 4.11617C4.01522 3.31639 2.62319 2.19374 1.50733 0.821101C0.937561 1.79901 0.762496 2.95751 1.01787 4.0601C1.27325 5.1627 1.93982 6.12627 2.8815 6.7541C2.17628 6.73189 1.48657 6.54149 0.869833 6.19877V6.25402C0.870015 7.28007 1.22501 8.27449 1.87463 9.0687C2.52425 9.86291 3.42853 10.408 4.43417 10.6117C3.77948 10.789 3.09304 10.8152 2.42675 10.6882C2.71051 11.5711 3.26319 12.3432 4.00747 12.8964C4.75174 13.4497 5.65036 13.7564 6.57758 13.7737C5.65598 14.4978 4.6007 15.0331 3.47207 15.3491C2.34345 15.6651 1.16361 15.7556 0 15.6154C2.03096 16.9215 4.39519 17.615 6.80992 17.6129C14.9841 17.6129 19.4551 10.8412 19.4551 4.96768C19.4551 4.77643 19.4494 4.58377 19.4409 4.39393C20.3107 3.7654 21.0615 2.98679 21.658 2.09468L21.6566 2.09327Z" fill="#65AD4C" />
-                            </svg>
-                        </a>
-                        <a href="#" class="social-icon">
-                            <i class="bi bi-linkedin"></i>
-                            <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M4.25 2.12642C4.24981 2.40548 4.19467 2.68177 4.0877 2.93951C3.98074 3.19726 3.82406 3.43141 3.6266 3.6286C3.42914 3.8258 3.19478 3.98217 2.93689 4.08879C2.67901 4.19541 2.40264 4.25019 2.12358 4.25C1.84452 4.24981 1.56824 4.19466 1.31049 4.0877C1.05274 3.98074 0.81859 3.82406 0.621397 3.6266C0.424204 3.42914 0.267834 3.19478 0.161215 2.93689C0.0545951 2.67901 -0.000185571 2.40264 4.72285e-07 2.12358C0.000376204 1.56 0.22462 1.01965 0.6234 0.621396C1.02218 0.223147 1.56283 -0.00037525 2.12642 4.72904e-07C2.69 0.000376196 3.23036 0.22462 3.6286 0.6234C4.02685 1.02218 4.25038 1.56283 4.25 2.12642ZM4.31375 5.82392H0.0637506V19.1264H4.31375V5.82392ZM11.0288 5.82392H6.8V19.1264H10.9863V12.1451C10.9863 8.25775 16.0551 7.89508 16.0551 12.1451V19.1264H20.2512V10.7015C20.2512 4.14517 12.75 4.39025 10.9863 7.60892L11.0288 5.82392Z" fill="#65AD4C" />
-                            </svg>
-                        </a>
-                        <a href="#" class="social-icon">
-                            <i class="bi bi-facebook"></i>
-                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M10.643 1.51653e-05C7.96595 -0.00450518 5.38589 1.00166 3.41872 2.81732C1.45154 4.63298 0.242239 7.1243 0.0326374 9.7931C-0.176964 12.4619 0.628582 15.1115 2.28819 17.212C3.9478 19.3125 6.33915 20.7091 8.98405 21.1225V13.6963H6.28529V10.625H8.98405V8.28468C8.98405 5.62135 10.5679 4.15085 12.996 4.15085C14.1577 4.15085 15.3746 4.3591 15.3746 4.3591V6.97285H14.0359C12.7155 6.97285 12.3033 7.79168 12.3033 8.63177V10.625H15.25L14.7796 13.6963H12.3033V21.1211C14.9464 20.7056 17.3354 19.3082 18.9931 17.208C20.6509 15.1079 21.4552 12.4597 21.2455 9.79235C21.0359 7.12502 19.8276 4.63499 17.8621 2.81968C15.8965 1.00437 13.3185 -0.00256743 10.643 1.51653e-05Z" fill="#65AD4C" />
-                            </svg>
-                        </a>
-                    </div>
+        <footer class="footer last-footer ">
+            <div class="d-flex flex-sm-row flex-column justify-content-between  flex-wrap">
+                <!-- Logo -->
+                <div class="footer-logo">
+                    <img src="assets/images/logo.png" alt="Edocsmart Logo" class="height50">
                 </div>
-                <!-- Divider -->
-                <div class="footer-divider"></div>
-                <!-- Copyright -->
-                <div class="d-flex flex-sm-row flex-column justify-content-between" id="footer-container">
-                    <p class="mb-0 text-muted copyright">©2025 Edocsmart; All Rights Reserved.</p>
-                    <div>
-                        <a href="#" class="text-decoration-none me-sm-4 footer-link">Privacy Policy</a>
-                        <a href="#" class="footer-link me-sm-4">Terms of Service</a>
-                        <a href="#" class="footer-link">Cookies Settings</a>
-                    </div>
-
+                <!-- Social Icons -->
+                <div class="social-icons d-flex">
+                    <a href="#" class="social-icon">
+                        <i class="bi bi-instagram"></i>
+                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M11 0C13.8872 0 14.247 0.0113334 15.3789 0.0637501C16.5122 0.116167 17.2815 0.294667 17.9601 0.558167C18.6599 0.827333 19.2521 1.19283 19.8414 1.78217C20.3826 2.31342 20.8005 2.95658 21.0668 3.66633C21.3289 4.34208 21.5074 5.11417 21.5612 6.24467C21.6108 7.378 21.625 7.73783 21.625 10.625C21.625 13.5122 21.6137 13.872 21.5612 15.0039C21.5088 16.1372 21.3303 16.9065 21.0668 17.5851C20.8005 18.2934 20.3826 18.9366 19.8414 19.4664C19.3105 20.0064 18.6686 20.4246 17.9601 20.6918C17.2829 20.9539 16.5108 21.1324 15.3789 21.1862C14.247 21.2358 13.8872 21.25 11 21.25C8.11283 21.25 7.753 21.2387 6.62108 21.1862C5.48775 21.1338 4.7185 20.9553 4.03992 20.6918C3.33049 20.4255 2.68789 20.0073 2.15717 19.4664C1.61734 18.9357 1.19965 18.2937 0.933167 17.5851C0.669667 16.9079 0.491167 16.1358 0.43875 15.0039C0.389167 13.8734 0.375 13.5122 0.375 10.625C0.375 7.73783 0.386333 7.378 0.43875 6.24608C0.491167 5.11275 0.669667 4.3435 0.933167 3.66492C1.19808 2.95658 1.61742 2.31342 2.15717 1.78217C2.68859 1.24182 3.33163 0.824083 4.04133 0.558167C4.7185 0.294667 5.48775 0.116167 6.61967 0.0637501C7.75442 0.0141668 8.11425 0 11 0ZM11 5.3125C9.59104 5.3125 8.23978 5.87221 7.24349 6.86849C6.24721 7.86478 5.6875 9.21604 5.6875 10.625C5.6875 12.034 6.24721 13.3852 7.24349 14.3815C8.23978 15.3778 9.59104 15.9375 11 15.9375C12.409 15.9375 13.7602 15.3778 14.7565 14.3815C15.7528 13.3852 16.3125 12.034 16.3125 10.625C16.3125 9.21604 15.7528 7.86478 14.7565 6.86849C13.7602 5.87221 12.409 5.3125 11 5.3125ZM17.9062 5.04617C17.9121 4.86811 17.882 4.69069 17.8179 4.52448C17.7538 4.35826 17.6569 4.20664 17.533 4.07862C17.4091 3.95061 17.2607 3.84881 17.0967 3.77929C16.9326 3.70978 16.7563 3.67395 16.5781 3.67395C16.4 3.67395 16.2236 3.70978 16.0596 3.77929C15.8956 3.84881 15.7472 3.95061 15.6233 4.07862C15.4994 4.20664 15.4025 4.35826 15.3384 4.52448C15.2742 4.69069 15.2442 4.86811 15.25 5.04617C15.2613 5.3909 15.4061 5.71775 15.654 5.95763C15.9018 6.1975 16.2332 6.33162 16.5781 6.33162C16.923 6.33162 17.2544 6.1975 17.5023 5.95763C17.7501 5.71775 17.895 5.3909 17.9062 5.04617ZM11 7.4375C11.8454 7.4375 12.6561 7.77332 13.2539 8.3711C13.8517 8.96887 14.1875 9.77962 14.1875 10.625C14.1875 11.4704 13.8517 12.2811 13.2539 12.8789C12.6561 13.4767 11.8454 13.8125 11 13.8125C10.1546 13.8125 9.34387 13.4767 8.7461 12.8789C8.14832 12.2811 7.8125 11.4704 7.8125 10.625C7.8125 9.77962 8.14832 8.96887 8.7461 8.3711C9.34387 7.77332 10.1546 7.4375 11 7.4375Z"
+                                fill="#65AD4C" />
+                        </svg>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="bi bi-twitter"></i>
+                        <svg width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M21.6566 2.09327C20.8463 2.45168 19.9849 2.68827 19.1052 2.79168C20.0334 2.23663 20.7282 1.36308 21.0602 0.333768C20.188 0.851676 19.2335 1.21631 18.2382 1.41185C17.5698 0.695491 16.6833 0.220173 15.7167 0.0598723C14.7502 -0.100429 13.7578 0.0632786 12.8939 0.525517C12.03 0.987754 11.3432 1.72259 10.9403 2.61567C10.5373 3.50875 10.441 4.50997 10.6661 5.46352C8.89933 5.37501 7.17092 4.91596 5.59307 4.11617C4.01522 3.31639 2.62319 2.19374 1.50733 0.821101C0.937561 1.79901 0.762496 2.95751 1.01787 4.0601C1.27325 5.1627 1.93982 6.12627 2.8815 6.7541C2.17628 6.73189 1.48657 6.54149 0.869833 6.19877V6.25402C0.870015 7.28007 1.22501 8.27449 1.87463 9.0687C2.52425 9.86291 3.42853 10.408 4.43417 10.6117C3.77948 10.789 3.09304 10.8152 2.42675 10.6882C2.71051 11.5711 3.26319 12.3432 4.00747 12.8964C4.75174 13.4497 5.65036 13.7564 6.57758 13.7737C5.65598 14.4978 4.6007 15.0331 3.47207 15.3491C2.34345 15.6651 1.16361 15.7556 0 15.6154C2.03096 16.9215 4.39519 17.615 6.80992 17.6129C14.9841 17.6129 19.4551 10.8412 19.4551 4.96768C19.4551 4.77643 19.4494 4.58377 19.4409 4.39393C20.3107 3.7654 21.0615 2.98679 21.658 2.09468L21.6566 2.09327Z"
+                                fill="#65AD4C" />
+                        </svg>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="bi bi-linkedin"></i>
+                        <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M4.25 2.12642C4.24981 2.40548 4.19467 2.68177 4.0877 2.93951C3.98074 3.19726 3.82406 3.43141 3.6266 3.6286C3.42914 3.8258 3.19478 3.98217 2.93689 4.08879C2.67901 4.19541 2.40264 4.25019 2.12358 4.25C1.84452 4.24981 1.56824 4.19466 1.31049 4.0877C1.05274 3.98074 0.81859 3.82406 0.621397 3.6266C0.424204 3.42914 0.267834 3.19478 0.161215 2.93689C0.0545951 2.67901 -0.000185571 2.40264 4.72285e-07 2.12358C0.000376204 1.56 0.22462 1.01965 0.6234 0.621396C1.02218 0.223147 1.56283 -0.00037525 2.12642 4.72904e-07C2.69 0.000376196 3.23036 0.22462 3.6286 0.6234C4.02685 1.02218 4.25038 1.56283 4.25 2.12642ZM4.31375 5.82392H0.0637506V19.1264H4.31375V5.82392ZM11.0288 5.82392H6.8V19.1264H10.9863V12.1451C10.9863 8.25775 16.0551 7.89508 16.0551 12.1451V19.1264H20.2512V10.7015C20.2512 4.14517 12.75 4.39025 10.9863 7.60892L11.0288 5.82392Z"
+                                fill="#65AD4C" />
+                        </svg>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="bi bi-facebook"></i>
+                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10.643 1.51653e-05C7.96595 -0.00450518 5.38589 1.00166 3.41872 2.81732C1.45154 4.63298 0.242239 7.1243 0.0326374 9.7931C-0.176964 12.4619 0.628582 15.1115 2.28819 17.212C3.9478 19.3125 6.33915 20.7091 8.98405 21.1225V13.6963H6.28529V10.625H8.98405V8.28468C8.98405 5.62135 10.5679 4.15085 12.996 4.15085C14.1577 4.15085 15.3746 4.3591 15.3746 4.3591V6.97285H14.0359C12.7155 6.97285 12.3033 7.79168 12.3033 8.63177V10.625H15.25L14.7796 13.6963H12.3033V21.1211C14.9464 20.7056 17.3354 19.3082 18.9931 17.208C20.6509 15.1079 21.4552 12.4597 21.2455 9.79235C21.0359 7.12502 19.8276 4.63499 17.8621 2.81968C15.8965 1.00437 13.3185 -0.00256743 10.643 1.51653e-05Z"
+                                fill="#65AD4C" />
+                        </svg>
+                    </a>
                 </div>
-            </footer>
-        </div>
-        </div>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    </body>
+            </div>
+            <!-- Divider -->
+            <div class="footer-divider"></div>
+            <!-- Copyright -->
+            <div class="d-flex flex-sm-row flex-column justify-content-between" id="footer-container">
+                <p class="mb-0 text-muted copyright">©2025 Edocsmart; All Rights Reserved.</p>
+                <div>
+                    <a href="#" class="text-decoration-none me-sm-4 footer-link">Privacy Policy</a>
+                    <a href="#" class="footer-link me-sm-4">Terms of Service</a>
+                    <a href="#" class="footer-link">Cookies Settings</a>
+                </div>
+                
+            </div>
+        </footer>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 
 </html>
