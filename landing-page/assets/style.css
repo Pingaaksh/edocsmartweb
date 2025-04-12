@@ -16,6 +16,10 @@
   .bg-image-main {
     background: url("images/Group.png");
   }
+
+  .bgwhite{
+    background-color: #FEFEFE;
+  }
   
   .hero-section {
     padding-top: 80px; /* Prevents overlap with navbar */
@@ -127,7 +131,7 @@
   
   .btn-watch-demo {
     background-color: #dcffcf !important;
-    padding: 10px 15px;
+    /* padding: 10px 15px; */
   }
   
   /* .btn-watch-demo:active, 
@@ -210,6 +214,11 @@
   .slider img {
     height: 50px; /* Adjust height as needed */
     width: auto;
+  }
+
+  .width740{
+    /* width: 740px; */
+    width: 48%;
   }
   
   @keyframes scroll {
@@ -396,6 +405,10 @@
     font-size: 18px;
     line-height: 48px;
     letter-spacing: 0%;
+  }
+
+  .margintopauto{
+    margin-top: auto;
   }
   
   /* About=================================== */
@@ -608,16 +621,17 @@
   }
   
   .domain-label {
+    font-family: 'Poppins';
     background: #e8f4ef;
     /* border-radius: 26px; */
     padding: 10px;
     display: inline-block;
     text-align: center;
-    font-weight: 500;
+    /* font-weight: 500; */
   }
   
   .domain-header {
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-weight: 700;
     font-size: 54px;
     line-height: 60px;
@@ -645,6 +659,7 @@
     font-weight: 600;
     font-size: 24px;
     color: #000;
+    margin-top: 16px;
   }
   
   .domain-text {
@@ -672,11 +687,13 @@
     padding-right: 12px;
     padding-left: 20px;
     background: #65ad4c;
+    font-weight: bold;
   }
   
   .domain-contactsales {
+    font-family: 'Poppins';
     height: 46px;
-    background-color: #4caf50 !important;
+    background-color: #65ad4c !important;
     color: white !important;
     font-weight: bold;
     font-size: 14px;
@@ -1033,7 +1050,16 @@
   .borderradius {
     border-radius: inherit;
   }
+
+
+  .faqbgcolor{
+    background-color: #F8F9FA;
+  }
   
+  .paddingtop9{
+    padding-top: 9px;
+  }
+
   /* Newsletter */
   .newsletter-section {
     background: #fff;
@@ -1360,6 +1386,10 @@
       font-weight: 500;
       font-size: 14px;
       line-height: 28px;
+    }
+    .width740{
+      /* width: 740px; */
+      width: auto;
     }
   
     /* ABOUT */
@@ -1705,6 +1735,7 @@
     .navbar-brand img {
       /* width: 140px; Resize logo for better fit */
       width: 140px;
+      margin-left: 6%;
     }
   
     /* Navbar link adjustments */
@@ -1801,6 +1832,11 @@
       font-weight: 500;
       font-size: 15px;
       line-height: 28px;
+    }
+
+    .width740{
+      /* width: 740px; */
+      width: auto;
     }
   
     /* ABOUT */
@@ -2273,6 +2309,11 @@
       font-weight: 500;
       font-size: 16px;
       line-height: 28px;
+    }
+
+    .width740{
+      /* width: 740px; */
+      width: auto;
     }
   
     /* ABOUT */
