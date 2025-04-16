@@ -10,11 +10,11 @@
   
   .bg-image {
     height: 400px;
-    background: url("/assets/images/Ellipse.png");
+    background: url("images/Ellipse.png");
     /* Adjust height as needed */
   }
   .bg-image-main {
-    background: url("/assets/images/Group.png");
+    background: url("images/Group.png");
   }
 
   .bgwhite{
