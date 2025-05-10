@@ -86,7 +86,7 @@
                             <path d="M4.68023 17.3198C3.88926 16.5288 4.41388 14.8682 4.01128 13.8952C3.59394 12.8865 2.0625 12.0746 2.0625 11C2.0625 9.92531 3.59395 9.1135 4.01129 8.10483C4.41389 7.1318 3.88926 5.4712 4.68023 4.68023C5.4712 3.88926 7.13181 4.41388 8.10484 4.01128C9.11353 3.59394 9.92536 2.0625 11 2.0625C12.0747 2.0625 12.8865 3.59395 13.8952 4.01129C14.8682 4.41389 16.5288 3.88926 17.3198 4.68023C18.1107 5.4712 17.5861 7.13181 17.9887 8.10484C18.4061 9.11353 19.9375 9.92536 19.9375 11C19.9375 12.0747 18.4061 12.8865 17.9887 13.8952C17.5861 14.8682 18.1107 16.5288 17.3198 17.3198C16.5288 18.1107 14.8682 17.5861 13.8952 17.9887C12.8865 18.4061 12.0746 19.9375 11 19.9375C9.92531 19.9375 9.1135 18.4061 8.10483 17.9887C7.1318 17.5861 5.4712 18.1107 4.68023 17.3198Z" stroke="#0F9918" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                             <path d="M14.7812 8.9375L9.73955 13.75L7.21875 11.3438" stroke="#0F9918" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                         </svg>
-                        7 Day Free Trial
+                        15 Day Free Trial
                     </span>
                     <span class="trail">
                         <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -100,12 +100,13 @@
             </div>
             <!-- <div class="col-lg-6 d-flex justify-content-center mt-4 mt-lg-0">
                       <img src="/assets/images/home image.png" alt="Mobile App Mockup" class="img-fluid"
-                          class="animated-img">
+                          >
                   </div> -->
             <div class="col-lg-6 d-flex justify-content-center mt-4 mt-lg-0">
-                <video src="/assets/video/home.mp4" alt="Mobile App Video" class="img-fluid video-style" autoplay loop muted playsinline>
-                    Your browser does not support the video tag.
-                </video>
+                <ng-lottie [options]="options" class="animated-img">
+                </ng-lottie>
+
+
             </div>
         </div>
     </div>
@@ -206,6 +207,49 @@
                     </a>
                 </div>
             </div>
+        </div>
+    </div>
+</div>
+<!-- Carousel Testimonial -->
+<div class="container">
+    <div id="testimonialCarousel" class="carousel slide pt-4 testimonial-container" data-bs-ride="carousel">
+        <div class="carousel-inner p-4">
+            <div class="carousel-item active">
+                <div class="testimonial-card text-center p-4">
+                    <p class="fs-4 text-start starcolor">★★★★★</p>
+                    <p class="domaintxt">Mixed feelings but adequate results. Pros: technical skills & Intuition
+                        about colors, fonts, & layout styles. Cons: Communication, English, Detail Orientation,
+                        Creativity, Following the Brief (Style guide, sample website, text requested). Off the mark
+                        2 day delivery, and 5-days of revision for one landing (good) page.</p>
+                    <div class="user-info d-flex text-start">
+                        <img src="/assets/images/proflie-img.png" class="rounded-circle me-2" class="height-weight" alt="User">
+                        <div class="text-start">
+                            <div class="user-name fw-bold">John Doe</div>
+                            <div class="user-role text-muted">Company ABC</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="testimonial-card text-center p-4">
+                    <p class="fs-4 text-start starcolor">★★★★☆</p>
+                    <p class="domaintxt">Mixed feelings but adequate results. Pros: technical skills & Intuition
+                        about colors, fonts, & layout styles. Cons: Communication, English, Detail Orientation,
+                        Creativity, Following the Brief (Style guide, sample website, text requested). Off the mark
+                        2 day delivery, and 5-days of revision for one landing (good) page.</p>
+                    <div class="user-info d-flex text-start">
+                        <img src="/assets/images/profile-img2.png" class="rounded-circle me-2" class="height-weight" alt="User">
+                        <div class="text-start">
+                            <div class="user-name fw-bold">Jane Smith</div>
+                            <div class="user-role text-muted">Company XYZ</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
         </div>
     </div>
 </div>
@@ -421,7 +465,7 @@
 </div>
 
 <!-- Carousel -->
-<div class="container">
+<!-- <div class="container">
     <div id="testimonialCarousel" class="carousel slide pt-4 testimonial-container" data-bs-ride="carousel">
         <div class="carousel-inner p-4">
             <div class="carousel-item active">
@@ -462,7 +506,7 @@
             <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
         </div>
     </div>
-</div>
+</div> -->
 
 <!-- FAQ -->
 <div class="container">
@@ -595,19 +639,19 @@
     </div>
 </div>
 <!-- Newsletter Section -->
-<div class="container my-5">
+<!-- <div class="container my-5">
     <div class="newsletter-section bg-white p-4 p-md-5 rounded-4 shadow-sm sign-top">
         <div class="row align-items-center newspace">
-            <!-- Text Section -->
-            <div class="col-md-4">
+            <!- Text Section -->
+<!-- <div class="col-md-4">
                 <h3 class="fw-bold  signup-headertext">Sign up to our newsletter!</h3>
                 <p class="mb-0  signuptext">
                     Stay in the loop with the latest updates, exclusive offers, and
                     financial tips by signing up for our newsletter.
                 </p>
-            </div>
-            <!-- Input Section -->
-            <div class="col-md-6 mt-3 mt-md-0">
+            </div> -->
+<!-- Input Section -->
+<!-- <div class="col-md-6 mt-3 mt-md-0">
                 <div class="d-flex flex-column flex-md-row">
                     <input type="email" class="form-control  mb-2 mb-md-0 placeholder-grey" placeholder="Enter your email">
                     <button class="btn btn-success px-4 fw-bold helpcolor ms-md-2 flex-shrink-0">Get Started</button>
@@ -615,7 +659,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 <!-- Footer -->
 <!-- <footer class="footer last-footer py-4">
               <div class="container d-flex justify-content-between align-items-center flex-wrap">

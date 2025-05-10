@@ -1,12 +1,16 @@
 import { Component } from '@angular/core';
-// import { RouterOutlet } from '@angular/router';
+import { RouterOutlet } from '@angular/router';
+import { LottieComponent } from 'ngx-lottie';
 
 @Component({
-  selector: 'app-root',
-  // imports: [RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+    selector: 'app-root',
+    imports: [LottieComponent],
+    templateUrl: './app.component.html',
+    styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'edocsmartweb_App';
+    title = 'edocsmartweb_App';
+    options = {
+        path: 'assets/animation/animation.json', // or any lottie JSON
+    };
 }
