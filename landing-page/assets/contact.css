@@ -1,0 +1,45 @@
+
+body {
+    background-color: #f8fdf9;
+  }
+.contact-form-container {
+    background-color: #f0f7ee;
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+.form-control {
+    /* background-color: #8bc270; */
+    border: none;
+    color: white;
+  }
+.form-control::placeholder {
+    color: white;
+  }
+.submit-btn {
+    background-color: #003e5f;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 30px;
+  }
+.submit-btn:hover {
+    background-color: #002f48;
+    color: white   
+  }
+.highlight {
+    color: #005aa7;
+    font-weight: 700;
+  }
+.small-text {
+    font-size: 14px;
+    color: #888;
+  }
+
+.size-box{
+  margin-top: 175px;
+}
+
+textarea {
+  height: 250px; 
+  resize: none;
+}

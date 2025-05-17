@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Sales - Edocsmart</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/contact.css">
+
+<body>
+
+  <!-- 🔹 NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm py-3">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-success" href="#">EDOCSMART</a>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="#">ABOUT</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">HOW IT WORKS</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">DOMAINS</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">FAQs</a></li>
+        </ul>
+        <a href="contact.html" class="btn btn-success ms-3">CONTACT SALES ↗ </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- 🔹 CONTACT SALES SECTION -->
+  <div class="container my-5 contact-form-container">
+    <div class="row align-items-center">
+      <div class="col-md-6 text-center">
+        <img src="/Users/harshit/edocsmartweb/landing-page/image.png" alt="Support" class="img-fluid"
+          style="max-height: 300px;">
+        <h1>Let's Get in Touch!</h1>
+        <p>We're here to help you with any questions or concerns you may have about our services. Please fill out the
+          form below and we'll get back to you as soon as possible.</p>
+      </div>
+      <div class="col-md-6">
+
+        <form action="https://formspree.io/f/manovpgl" method="POST">
+          <div class="mb-3">
+            <label for="fullName" class="form-label">Your Name</label>
+            <input type="text" class="form-control" id="fullName" name="name" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="phone" class="form-label">Phone Number</label>
+            <input type="tel" class="form-control" id="phone" name="phone">
+          </div>
+
+          <div class="mb-3">
+            <label for="company" class="form-label">Company Name</label>
+            <input type="text" class="form-control" id="company" name="company" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="industry" class="form-label">Industry</label>
+            <input type="text" class="form-control" id="industry" name="industry">
+          </div>
+
+          <div class="mb-3">
+            <label for="inquiry" class="form-label">Inquiry Details</label>
+            <textarea class="form-control" id="inquiry" name="inquiry" rows="4" style="resize: none;"></textarea>
+          </div>
+
+          <!-- Prevent spam -->
+          <input type="hidden" name="_captcha" value="false">
+
+          <!-- Redirect after success -->
+          <input type="hidden" name="_next" value="https://yourdomain.com/thank-you.html">
+
+          <div class="d-flex justify-content-center mt-3">
+            <button type="submit" class="btn submit-btn">Submit</button>
+          </div>
+        </form>
+
+
+
+
+      </div>
+    </div>
+  </div>
+
+  <!-- 🔹 FOOTER -->
+  <footer class="bg-white border-top mt-5">
+    <div class="container py-4 d-flex justify-content-between align-items-center">
+      <div>
+        <img src="logo.png" alt="Logo" style="height: 24px;">
+        <span class="ms-2">©2025 Edocsmart. All Rights Reserved.</span>
+      </div>
+      <div>
+        <a href="#"><img src="instagram-icon.png" alt="Instagram" style="height: 20px;" class="me-2"></a>
+        <a href="#"><img src="twitter-icon.png" alt="Twitter" style="height: 20px;" class="me-2"></a>
+        <a href="#"><img src="linkedin-icon.png" alt="LinkedIn" style="height: 20px;" class="me-2"></a>
+        <a href="#"><img src="facebook-icon.png" alt="Facebook" style="height: 20px;"></a>
+      </div>
+    </div>
+    <div class="text-center small py-2">
+      <a href="#" class="text-muted me-3">Privacy Policy</a>
+      <a href="#" class="text-muted me-3">Terms of Service</a>
+      <a href="#" class="text-muted">Cookies Settings</a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
