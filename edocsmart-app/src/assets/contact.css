@@ -4,16 +4,55 @@ body {
  
  
 .bg-section {
-  background-image: url('D:\\Projects\\edocsmartweb_App\\landing-page\\assets\\images\\Rectangle_bg.png'); /* use your actual path */
+  background-image: url('/assets/images/contact_bg_img.png'); /* use your actual path */
   background-repeat: no-repeat;
   background-position: center top;
   /* background-size: cover; */
   padding-bottom: 8rem; /* Increase height */
-  position: relative;
+  /* position: relative; */
   z-index: 1;
 }
 
+
+.floating-img {
+    position: absolute;
+    z-index: 1;
+    pointer-events: none;
+}
+
+/* Position each image individually */
+.img1 {
+   margin-top: 30px;
+   margin-left:-112px ;
+}
+
+.img2 {
+    margin-top: 340px;
+    margin-left:-23px ;
+}
+
+.img3 {
+    margin-top: 100px;
+    margin-left: 45px;
+
+}
+
+.img4 {
+    margin-top: 590px;
+    margin-left: 500px;
+
+}
+
+
+
+
+
+
+
+
+
 .hero-section {
+  z-index: 1;
   padding: 50px 0;
   padding-top: 20px; /* Prevents overlap with navbar */
 }
@@ -29,10 +68,14 @@ body {
     /* font-style: bold; */
 }
  
- 
+.margin-top-30{
+    margin-top: 30px;
+} 
+
 .contact-left h1 {
     font-weight: 700;
     color: #083256;
+    font-size: 60px;
 }
  
 .btn-contact {
@@ -72,51 +115,129 @@ body {
 .margin-top-150{
     margin-top: 150px;
 }
+
+
+
+
+/* Make the form sticky */
+.sticky-wrapper {
+  position: relative;
+  z-index: 100;
+}
+
+/* Ensure body has proper positioning context */
+body {
+  position: relative;
+}
+
+/* Sticky Form Styling */
+.sticky-form {
+  position: fixed;
+  top: 30px;
+  /* left and width will be set dynamically by JavaScript */
+  transition: all 0.3s ease;
+  z-index: 999;
+}
+
+/* Stop sticky effect when testimonials section is reached */
+.stop-sticky {
+  position: absolute !important;
+  top: auto !important;
+  right: auto !important;
+  width: auto !important;
+  max-width: 100% !important;
+  transform: none !important;
+}
+
+/* Responsive behavior */
+@media (max-width: 991px) {
+  .sticky-wrapper {
+    position: static;
+    top: auto;
+  }
+  
+  .sticky-form {
+    position: static !important;
+    top: auto !important;
+    right: auto !important;
+    width: auto !important;
+    max-width: 100% !important;
+  }
+  
+  .stop-sticky {
+    position: static !important;
+  }
+}
+
+/* Ensure proper spacing for content when form is fixed */
+@media (min-width: 992px) {
+  .hero-section .col-md-6:last-child {
+    min-height: 600px; /* Reserve space for the form */
+  }
+}
+
+
  
 .form-card {
     background-color: #fff;
     width: 494px;
-    height: auto;
-    border-radius: 12px;
-    padding: 2rem;
     max-width: 100%;
-    /* box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); */
+    border-radius: 12px;
+    padding: 2.5rem;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #E2E2E2;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
 }
 
 /* Header */
 .form-heading {
     font-weight: 700;
     color: #083256;
-    font-size: 1.75rem;
+    font-size: 2rem;
     margin-bottom: 0.5rem;
 }
 
 .form-subtext {
     color: #6c757d;
     font-size: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
+    line-height: 1.6;
 }
 
 /* Label */
 .form-label {
-    font-size: 0.75rem;
+    font-size: 0.875rem;
     color: #6c757d;
-    margin-bottom: 0.25rem;
+    margin-bottom: 0.5rem;
+    display: block;
 }
 
-/* Input */
+/* Input Fields */
 .form-control {
     border: none;
     border-bottom: 1px solid #ced4da;
     border-radius: 0;
-    padding-left: 0;
+    padding: 0.75rem 0;
     font-size: 1rem;
     font-weight: 500;
+    width: 100%;
+}
+
+.form-control::placeholder {
+    color: #999;
 }
 
 .form-control:focus {
     border-color: #28a745;
     box-shadow: none;
+    outline: none;
+}
+
+/* Form Spacing */
+.mb-4 {
+    margin-bottom: 1.75rem !important;
 }
 
 /* Button */
@@ -124,16 +245,22 @@ body {
     background-color: #5cb85c;
     color: #fff;
     font-weight: 700;
-    border-radius: 8px;
-    padding: 0.8rem;
+    border-radius: 10px;
+    padding: 1rem;
     font-size: 1rem;
     letter-spacing: 0.5px;
     text-transform: uppercase;
+    transition: background-color 0.3s ease;
 }
 
 .btn-submit:hover {
     background-color: #4cae4c;
 }
+
+textarea.form-control {
+    resize: none;
+}
+
 .form-floating-wrapper {
   position: absolute;
   top: 50%; /* You can tweak this to 55-60% for more overlap */
@@ -155,7 +282,10 @@ body {
 }
 
  
- 
+.padding-top-bottom-100{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
  
  
 .hero {
@@ -176,7 +306,14 @@ body {
  
 .text-color {
     color: #003057;
+    font-size: 40px;
 }
+
+
+.hr-style{
+    width: 30px; border: 2px solid #000;
+}
+
  
 .trusted-img {
     /* height: 40px;
@@ -185,6 +322,15 @@ body {
     width: auto;
 }
  
+
+/* Testimonial */
+
+
+
+.font-size-50{
+    font-size: 50px;
+    color: #003057;
+}
 .testimonial {
     background-color: #fff;
     border: 1px solid #eee;
@@ -196,7 +342,9 @@ body {
 .text-align-left {
     text-align: left;
     margin-top: 25px;
-    font-family: "Chivo";
+    font-family: "poppins";
+    color: #999;
+    font-size: 19px;
 }
 
 .margin-top-revert{

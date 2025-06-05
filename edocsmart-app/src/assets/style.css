@@ -10,7 +10,7 @@
   
   .bg-image {
     height: 400px;
-    background: url("D:\\Projects\\edocsmartweb_App\\edocsmart-app\\src\\assets\\images\\Ellipse.png");
+    background: url("/assets/images/Ellipse.png");
     /* Adjust height as needed */
   }
   .bg-image-main {
