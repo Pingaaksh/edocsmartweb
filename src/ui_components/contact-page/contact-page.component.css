@@ -1,0 +1,360 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+}
+ 
+ 
+.bg-section {
+  background-image: url('/assets/images/contact_bg_img.png'); /* use your actual path */
+  background-repeat: no-repeat;
+  background-position: center top;
+  /* background-size: cover; */
+  padding-bottom: 8rem; /* Increase height */
+  /* position: relative; */
+  z-index: 1;
+}
+
+
+.floating-img {
+    position: absolute;
+    z-index: 1;
+    pointer-events: none;
+}
+
+/* Position each image individually */
+.img1 {
+   margin-top: 30px;
+   margin-left:-112px ;
+}
+
+.img2 {
+    margin-top: 340px;
+    margin-left:-23px ;
+}
+
+.img3 {
+    margin-top: 100px;
+    margin-left: 45px;
+
+}
+
+.img4 {
+    margin-top: 590px;
+    margin-left: 500px;
+
+}
+
+
+
+
+
+
+
+
+
+.hero-section {
+  z-index: 1;
+  padding: 50px 0;
+  padding-top: 20px; /* Prevents overlap with navbar */
+}
+
+.move-up {
+    position: relative;
+    top: -20px; /* adjust this as needed */
+}
+
+.text-style{
+    font-family:"poppins";
+    font-weight: 500px;
+    /* font-style: bold; */
+}
+ 
+.margin-top-30{
+    margin-top: 30px;
+} 
+
+.contact-left h1 {
+    font-weight: 700;
+    color: #083256;
+    font-size: 60px;
+}
+ 
+.btn-contact {
+    font-size: 0.75rem;
+    background: #fff;
+    border-radius: 20px;
+    padding: 4px 12px;
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+}
+ 
+.social-icons a {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+    color: #333;
+    font-size: 16px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+ 
+.social-icon-img {
+    width: 46px;
+    height: 44px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+    background-color: #fff;
+    padding: -10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.margin-top-150{
+    margin-top: 150px;
+}
+
+
+
+
+/* Make the form sticky */
+.sticky-wrapper {
+  position: relative;
+  z-index: 100;
+}
+
+/* Ensure body has proper positioning context */
+body {
+  position: relative;
+}
+
+/* Sticky Form Styling */
+.sticky-form {
+  position: fixed;
+  top: 30px;
+  /* left and width will be set dynamically by JavaScript */
+  transition: all 0.3s ease;
+  z-index: 999;
+}
+
+/* Stop sticky effect when testimonials section is reached */
+.stop-sticky {
+  position: absolute !important;
+  top: auto !important;
+  right: auto !important;
+  width: auto !important;
+  max-width: 100% !important;
+  transform: none !important;
+}
+
+/* Responsive behavior */
+@media (max-width: 991px) {
+  .sticky-wrapper {
+    position: static;
+    top: auto;
+  }
+  
+  .sticky-form {
+    position: static !important;
+    top: auto !important;
+    right: auto !important;
+    width: auto !important;
+    max-width: 100% !important;
+  }
+  
+  .stop-sticky {
+    position: static !important;
+  }
+}
+
+/* Ensure proper spacing for content when form is fixed */
+@media (min-width: 992px) {
+  .hero-section .col-md-6:last-child {
+    min-height: 600px; /* Reserve space for the form */
+  }
+}
+
+
+ 
+.form-card {
+    background-color: #fff;
+    width: 494px;
+    max-width: 100%;
+    border-radius: 12px;
+    padding: 2.5rem;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #E2E2E2;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+/* Header */
+.form-heading {
+    font-weight: 700;
+    color: #083256;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.form-subtext {
+    color: #6c757d;
+    font-size: 1rem;
+    margin-bottom: 2.5rem;
+    line-height: 1.6;
+}
+
+/* Label */
+.form-label {
+    font-size: 0.875rem;
+    color: #6c757d;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+/* Input Fields */
+.form-control {
+    border: none;
+    border-bottom: 1px solid #ced4da;
+    border-radius: 0;
+    padding: 0.75rem 0;
+    font-size: 1rem;
+    font-weight: 500;
+    width: 100%;
+}
+
+.form-control::placeholder {
+    color: #999;
+}
+
+.form-control:focus {
+    border-color: #28a745;
+    box-shadow: none;
+    outline: none;
+}
+
+/* Form Spacing */
+.mb-4 {
+    margin-bottom: 1.75rem !important;
+}
+
+/* Button */
+.btn-submit {
+    background-color: #5cb85c;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 1rem;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #4cae4c;
+}
+
+textarea.form-control {
+    resize: none;
+}
+
+.form-floating-wrapper {
+  position: absolute;
+  top: 50%; /* You can tweak this to 55-60% for more overlap */
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  transform: translateY(50%);
+  z-index: 10;
+}
+
+@media (max-width: 768px) {
+  .form-floating-wrapper {
+    position: relative;
+    top: auto;
+    transform: none;
+    margin-top: 2rem;
+  }
+}
+
+ 
+.padding-top-bottom-100{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+ 
+ 
+.hero {
+    background: linear-gradient(135deg, #e8f5e9, #c8e6c9);
+    padding: 60px 0;
+}
+ 
+.contact-card {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    padding: 30px;
+    border-radius: 10px;
+}
+ 
+.contact-text {
+    text-align: justify;
+}
+ 
+.text-color {
+    color: #003057;
+    font-size: 40px;
+}
+
+
+.hr-style{
+    width: 30px; border: 2px solid #000;
+}
+
+ 
+.trusted-img {
+    /* height: 40px;
+    margin: 10px 20px; */
+    margin-right: 300px;
+    width: auto;
+}
+ 
+
+/* Testimonial */
+
+
+
+.font-size-50{
+    font-size: 50px;
+    color: #003057;
+}
+.testimonial {
+    background-color: #fff;
+    border: 1px solid #eee;
+    padding: 20px;
+    border-radius: 8px;
+    height: 100%;
+}
+
+.text-align-left {
+    text-align: left;
+    margin-top: 25px;
+    font-family: "poppins";
+    color: #999;
+    font-size: 19px;
+}
+
+.margin-top-revert{
+    margin-top: revert;
+}
+
+.color-ceo{
+    color: #6241D4;
+}
+footer {
+    background-color: #f8f9fa;
+    padding: 30px 0;
+}
